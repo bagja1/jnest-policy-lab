@@ -1,0 +1,942 @@
+%PDF-1.4
+%J-NEST
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+3 0 obj
+<< /Length 4232 >>
+stream
+0.080 0.230 0.250 rg 0.00 546.89 595.28 295.00 re f
+0.100 0.430 0.400 rg 0.00 546.89 595.28 10.00 re f
+0.890 0.950 0.830 rg 45.00 746.89 55.00 55.00 re f
+BT /F2 37 Tf 0.080 0.230 0.250 rg 1 0 0 1 63.00 759.89 Tm (J) Tj ET
+BT /F2 18 Tf 1.000 1.000 1.000 rg 1 0 0 1 113.00 775.89 Tm (J-NEST) Tj ET
+BT /F1 9 Tf 0.740 0.870 0.820 rg 1 0 0 1 113.00 760.89 Tm (POLICY SIMULATION LAB  /  V5.0) Tj ET
+BT /F2 11 Tf 0.780 0.930 0.840 rg 1 0 0 1 45.00 702.89 Tm (LAPORAN ANALISIS DAN REKOMENDASI KEBIJAKAN) Tj ET
+BT /F2 23 Tf 1.000 1.000 1.000 rg 1 0 0 1 45.00 662.89 Tm (CONTOH HIPOTETIS - simulasi investasi air) Tj ET
+BT /F2 23 Tf 1.000 1.000 1.000 rg 1 0 0 1 45.00 633.89 Tm (J-NEST dan SKK) Tj ET
+BT /F2 8.8 Tf 0.960 0.820 0.600 rg 1 0 0 1 45.00 568.09 Tm (DRAF PROTOTIPE  |  BUKAN PERSETUJUAN INVESTASI) Tj ET
+BT /F1 11 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 503.89 Tm (Berdasarkan penghitungan panel J-NEST 27 kabupaten/kota periode 2020-2024, perbandingan) Tj ET
+BT /F1 11 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 485.89 Tm (alternatif rancangan, pemeriksaan G0-G4, dan orientasi Siksakandang Karesian.) Tj ET
+0.080 0.230 0.250 rg 45.00 386.89 120.32 70.00 re f
+BT /F2 7.4 Tf 1.000 1.000 1.000 rg 1 0 0 1 56.00 441.49 Tm (WILAYAH OPSI FOKUS) Tj ET
+BT /F2 19.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 56.00 413.39 Tm (Subang) Tj ET
+0.920 0.960 0.940 rg 173.32 386.89 120.32 70.00 re f
+BT /F2 7.4 Tf 0.380 0.480 0.470 rg 1 0 0 1 184.32 441.49 Tm (TAHUN PANEL) Tj ET
+BT /F2 19.5 Tf 0.080 0.230 0.250 rg 1 0 0 1 184.32 413.39 Tm (2024) Tj ET
+0.920 0.960 0.940 rg 301.64 386.89 120.32 70.00 re f
+BT /F2 7.4 Tf 0.380 0.480 0.470 rg 1 0 0 1 312.64 441.49 Tm (SKOR J-NEST) Tj ET
+BT /F2 19.5 Tf 0.080 0.230 0.250 rg 1 0 0 1 312.64 413.39 Tm (46,22) Tj ET
+0.920 0.960 0.940 rg 429.96 386.89 120.32 70.00 re f
+BT /F2 7.4 Tf 0.380 0.480 0.470 rg 1 0 0 1 440.96 441.49 Tm (DOKUMEN) Tj ET
+BT /F2 19.5 Tf 0.080 0.230 0.250 rg 1 0 0 1 440.96 413.39 Tm (SIMULASI) Tj ET
+BT /F2 11.2 Tf 0.100 0.430 0.400 rg 1 0 0 1 45.00 338.69 Tm (Identitas laporan) Tj ET
+0.080 0.230 0.250 rg 45.00 303.39 505.28 26.50 re f
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 53.00 314.69 Tm (Informasi) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 193.08 314.69 Tm (Nilai) Tj ET
+0.966 0.982 0.975 rg 45.00 278.29 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 289.99 Tm (Nama skenario) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 193.08 289.99 Tm (CONTOH HIPOTETIS - simulasi investasi air J-NEST dan SKK) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 278.29 m 550.28 278.29 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 264.89 Tm (Wilayah opsi fokus) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 193.08 264.89 Tm (Kab. Subang) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 253.19 m 550.28 253.19 l S
+0.966 0.982 0.975 rg 45.00 228.09 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 239.79 Tm (Tahun panel) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 193.08 239.79 Tm (2024) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 228.09 m 550.28 228.09 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 214.69 Tm (Tanggal pembuatan) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 193.08 214.69 Tm (26 Oktober 2026 pukul 08.57) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 202.99 m 550.28 202.99 l S
+0.966 0.982 0.975 rg 45.00 177.89 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 189.59 Tm (Status pemeriksaan) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 193.08 189.59 Tm (TAHAN & RUJUK PEMERIKSAAN G1) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 177.89 m 550.28 177.89 l S
+0.990 0.970 0.920 rg 45.00 99.89 505.28 66.00 re f
+0.730 0.520 0.280 rg 45.00 99.89 3.00 66.00 re f
+BT /F1 9.3 Tf 0.120 0.250 0.260 rg 1 0 0 1 58.00 146.59 Tm (DOKUMEN UJI KEBIJAKAN. Data teritorial adalah hasil penelitian retrospektif. Parameter proyek, pernyataan) Tj ET
+BT /F1 9.3 Tf 0.120 0.250 0.260 rg 1 0 0 1 58.00 131.59 Tm (ketersediaan dokumen dan pemeriksaan hukum merupakan masukan pengguna yang belum diverifikasi oleh) Tj ET
+BT /F1 9.3 Tf 0.120 0.250 0.260 rg 1 0 0 1 58.00 116.59 Tm (instansi berwenang. Skor J-NEST tidak menentukan izin atau kompensasi ekologis.) Tj ET
+BT /F1 8 Tf 0.380 0.480 0.470 rg 1 0 0 1 490.3 32.0 Tm (1 / 12) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 27 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 6935 >>
+stream
+0.080 0.230 0.250 rg 0.00 804.89 595.28 37.00 re f
+BT /F2 9 Tf 1.000 1.000 1.000 rg 1 0 0 1 45.00 819.89 Tm (J-NEST  /  LAPORAN SIMULASI KEBIJAKAN) Tj ET
+BT /F1 8 Tf 0.830 0.920 0.880 rg 1 0 0 1 451.28 820.89 Tm (DRAF PENELITIAN) Tj ET
+0.850 0.900 0.870 RG 0.6 w 45.00 46.00 m 550.28 46.00 l S
+BT /F1 7 Tf 0.380 0.480 0.470 rg 1 0 0 1 45.00 32.00 Tm (Kerangka J-NEST-SKK | Bukan keputusan/izin pemerintah) Tj ET
+BT /F2 15 Tf 0.080 0.230 0.250 rg 1 0 0 1 45.00 749.89 Tm (1. Ringkasan eksekutif dan posisi keputusan) Tj ET
+0.850 0.900 0.870 RG 0.7 w 45.00 738.89 m 550.28 738.89 l S
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 716.19 Tm (Simulasi ini menelaah CONTOH HIPOTETIS - simulasi investasi air J-NEST dan SKK pada sektor Proyek) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 700.49 Tm (investasi lainnya. Opsi yang sedang difokuskan adalah Rancangan awal berlokasi di Kab. Subang \(2024\),) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 684.79 Tm (sementara lokasi rancangan awal adalah Kab. Subang. Tujuan yang dicatat: belum dirumuskan secara terukur.) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 669.09 Tm (Masalah kebijakan: belum dirinci dalam formulir.) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 647.89 Tm (Profil administratif Kab. Subang mempunyai indeks J-NEST 46,216 dari skala 0-100 dengan peringkat 20 dari 27) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 632.19 Tm (wilayah pada 2024; dimensi IDI 27,730, SEC 51,564, dan ESP 59,355. Wilayah ini termasuk tujuh anggota resmi) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 616.49 Tm (Kawasan Rebana. Skor merupakan ringkasan delapan proksi dan tidak menyatakan layak investasi, kondisi) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 600.79 Tm (tapak, atau besaran manfaat yang ditimbulkan proyek.) Tj ET
+0.080 0.230 0.250 rg 45.00 519.29 120.32 70.00 re f
+BT /F2 7.4 Tf 1.000 1.000 1.000 rg 1 0 0 1 56.00 573.89 Tm (J-NEST PANEL) Tj ET
+BT /F2 19.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 56.00 545.79 Tm (46,22) Tj ET
+0.920 0.960 0.940 rg 173.32 519.29 120.32 70.00 re f
+BT /F2 7.4 Tf 0.380 0.480 0.470 rg 1 0 0 1 184.32 573.89 Tm (PERINGKAT TAHUN) Tj ET
+BT /F2 19.5 Tf 0.080 0.230 0.250 rg 1 0 0 1 184.32 545.79 Tm (20/27) Tj ET
+0.920 0.960 0.940 rg 301.64 519.29 120.32 70.00 re f
+BT /F2 7.4 Tf 0.380 0.480 0.470 rg 1 0 0 1 312.64 573.89 Tm (BUKTI TERLACAK) Tj ET
+BT /F2 19.5 Tf 0.080 0.230 0.250 rg 1 0 0 1 312.64 545.79 Tm (0/15) Tj ET
+0.920 0.960 0.940 rg 429.96 519.29 120.32 70.00 re f
+BT /F2 7.4 Tf 0.380 0.480 0.470 rg 1 0 0 1 440.96 573.89 Tm (ISU BELUM TUNTAS) Tj ET
+BT /F2 19.5 Tf 0.080 0.230 0.250 rg 1 0 0 1 440.96 545.79 Tm (18) Tj ET
+0.990 0.970 0.920 rg 45.00 440.29 505.28 66.00 re f
+0.730 0.520 0.280 rg 45.00 440.29 3.00 66.00 re f
+BT /F1 9.3 Tf 0.120 0.250 0.260 rg 1 0 0 1 58.00 486.99 Tm (STATUS SIMULASI: TAHAN & RUJUK PEMERIKSAAN G1. Terdapat indikasi benturan dengan batas yang) Tj ET
+BT /F1 9.3 Tf 0.120 0.250 0.260 rg 1 0 0 1 58.00 471.99 Tm (berlaku. Hentikan klaim kelayakan dari simulasi dan minta pemeriksaan instansi berwenang. Semua rujukan) Tj ET
+BT /F1 9.3 Tf 0.120 0.250 0.260 rg 1 0 0 1 58.00 456.99 Tm (bukti dan parameter tingkat proyek merupakan pernyataan pengguna, bukan hasil audit independen.) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 416.59 Tm (Arahan awal: telaah alternatif lokasi, teknologi, kapasitas atau tahapan hanya dilanjutkan sesuai bukti tapak,) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 400.89 Tm (kepentingan pengguna sumber daya, dan batas hukum. Tidak ada persetujuan investasi maupun kewajiban) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 385.19 Tm (kompensasi yang diterbitkan otomatis oleh aplikasi.) Tj ET
+BT /F2 15 Tf 0.080 0.230 0.250 rg 1 0 0 1 45.00 347.69 Tm (2. Dasar penghitungan indeks J-NEST) Tj ET
+0.850 0.900 0.870 RG 0.7 w 45.00 336.69 m 550.28 336.69 l S
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 313.99 Tm (Perhitungan mereproduksi metode paper J-NEST \(2026\), Tabel 1 dan Persamaan \(1\)-\(5\): delapan indikator pada) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 298.29 Tm (27 kabupaten/kota selama lima tahun atau 135 observasi; transformasi logaritma natural untuk PDRB industri) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 282.59 Tm (pengolahan dan jumlah penduduk; normalisasi min-maks pada gabungan panel 2020-2024. Arah normalisasi) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 266.89 Tm (disesuaikan tanda positif atau negatif tiap indikator.) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 245.69 Tm (Bobot CRITIC dihitung terpisah pada IDI, SEC, dan ESP: informasi tiap indikator berasal dari simpangan baku) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 229.99 Tm (nilai ternormalisasi \(pembagi N=135\) dan perbedaan korelasi dengan indikator lain pada dimensi yang sama. Skor) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 214.29 Tm (dimensi = 100 kali penjumlahan \(normalisasi x bobot CRITIC\). Indeks utama = \(IDI + SEC + ESP\) / 3; bobot) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 198.59 Tm (antardimensi masing-masing 1/3. Bobot bukan besaran kepentingan hukum atau nilai ekologis.) Tj ET
+0.080 0.230 0.250 rg 45.00 160.59 505.28 26.50 re f
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 53.00 171.89 Tm (Dimensi) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 223.09 171.89 Tm (Skor 0-100) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 318.15 171.89 Tm (Median 27 wilayah) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 428.21 171.89 Tm (Posisi relatif) Tj ET
+0.966 0.982 0.975 rg 45.00 135.49 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 147.19 Tm (IDI - aktivitas industri) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 223.09 147.19 Tm (27,730) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 318.15 147.19 Tm (37,561) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 428.21 147.19 Tm (di bawah median) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 135.49 m 550.28 135.49 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 122.09 Tm (SEC - sosial ekonomi) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 223.09 122.09 Tm (51,564) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 318.15 122.09 Tm (53,233) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 428.21 122.09 Tm (di bawah median) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 110.39 m 550.28 110.39 l S
+0.966 0.982 0.975 rg 45.00 85.29 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 96.99 Tm (ESP - vegetasi-termal) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 223.09 96.99 Tm (59,355) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 318.15 96.99 Tm (61,411) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 428.21 96.99 Tm (di bawah median) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 85.29 m 550.28 85.29 l S
+BT /F1 8 Tf 0.380 0.480 0.470 rg 1 0 0 1 490.3 32.0 Tm (2 / 12) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 27 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 8463 >>
+stream
+0.080 0.230 0.250 rg 0.00 804.89 595.28 37.00 re f
+BT /F2 9 Tf 1.000 1.000 1.000 rg 1 0 0 1 45.00 819.89 Tm (J-NEST  /  LAPORAN SIMULASI KEBIJAKAN) Tj ET
+BT /F1 8 Tf 0.830 0.920 0.880 rg 1 0 0 1 451.28 820.89 Tm (DRAF PENELITIAN) Tj ET
+0.850 0.900 0.870 RG 0.6 w 45.00 46.00 m 550.28 46.00 l S
+BT /F1 7 Tf 0.380 0.480 0.470 rg 1 0 0 1 45.00 32.00 Tm (Kerangka J-NEST-SKK | Bukan keputusan/izin pemerintah) Tj ET
+0.080 0.230 0.250 rg 45.00 749.39 505.28 26.50 re f
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 53.00 760.69 Tm (Dimensi) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 223.09 760.69 Tm (Skor 0-100) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 318.15 760.69 Tm (Median 27 wilayah) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 428.21 760.69 Tm (Posisi relatif) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 735.99 Tm (J-NEST utama) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 223.09 735.99 Tm (46,216) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 318.15 735.99 Tm (52,635) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 428.21 735.99 Tm (di bawah median) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 724.29 m 550.28 724.29 l S
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 702.59 Tm (Rumus numerik untuk Kab. Subang: \(27,730 + 51,564 + 59,355\) / 3 = 46,216. Jumlah kontribusi delapan indikator) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 686.89 Tm (dihitung dari 100 x z x w / 3 dan identik dengan indeks utama \(perbedaan yang mungkin tampak hanya akibat) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 671.19 Tm (pembulatan tampilan\).) Tj ET
+BT /F2 11.2 Tf 0.100 0.430 0.400 rg 1 0 0 1 45.00 641.49 Tm (Jejak delapan indikator yang menentukan skor) Tj ET
+0.080 0.230 0.250 rg 45.00 606.19 505.28 26.50 re f
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 53.00 617.49 Tm (Indikator \(arah\)) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 228.47 617.49 Tm (Nilai mentah) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 303.80 617.49 Tm (Normalisasi z) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 380.05 617.49 Tm (Bobot CRITIC) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 459.06 617.49 Tm (Kontribusi indeks) Tj ET
+0.966 0.982 0.975 rg 45.00 581.09 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 592.79 Tm (IDI | PDRB industri ADHK 2010 \(+\)) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 228.47 592.79 Tm (4.095,300) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 303.80 592.79 Tm (0,3831) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 380.05 592.79 Tm (0,468390) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 459.06 592.79 Tm (5,981) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 581.09 m 550.28 581.09 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 567.69 Tm (IDI | NDBI \(+\)) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 228.47 567.69 Tm (-0,210) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 303.80 567.69 Tm (0,2856) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 380.05 567.69 Tm (0,297534) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 459.06 567.69 Tm (2,832) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 555.99 m 550.28 555.99 l S
+0.966 0.982 0.975 rg 45.00 530.89 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 542.59 Tm (IDI | Cahaya malam \(+\)) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 228.47 542.59 Tm (1,657) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 303.80 542.59 Tm (0,0551) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 380.05 542.59 Tm (0,234076) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 459.06 542.59 Tm (0,430) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 530.89 m 550.28 530.89 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 517.49 Tm (SEC | Jumlah penduduk \(+\)) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 228.47 517.49 Tm (1.663.160) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 303.80 517.49 Tm (0,6327) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 380.05 517.49 Tm (0,333472) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 459.06 517.49 Tm (7,033) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 505.79 m 550.28 505.79 l S
+0.966 0.982 0.975 rg 45.00 480.69 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 492.39 Tm (SEC | Kemiskinan \(-\)) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 228.47 492.39 Tm (9,490) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 303.80 492.39 Tm (0,3373) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 380.05 492.39 Tm (0,353220) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 459.06 492.39 Tm (3,972) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 480.69 m 550.28 480.69 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 467.29 Tm (SEC | TPT \(-\)) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 228.47 467.29 Tm (6,730) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 303.80 467.29 Tm (0,5920) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 380.05 467.29 Tm (0,313308) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 459.06 467.29 Tm (6,183) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 455.59 m 550.28 455.59 l S
+0.966 0.982 0.975 rg 45.00 430.49 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 442.19 Tm (ESP | NDVI \(+\)) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 228.47 442.19 Tm (0,559) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 303.80 442.19 Tm (0,6094) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 380.05 442.19 Tm (0,562511) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 459.06 442.19 Tm (11,426) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 430.49 m 550.28 430.49 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 417.09 Tm (ESP | Suhu permukaan lahan \(LST\) \(-\)) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 228.47 417.09 Tm (33,659) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 303.80 417.09 Tm (0,5732) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 380.05 417.09 Tm (0,437489) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 459.06 417.09 Tm (8,359) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 405.39 m 550.28 405.39 l S
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 383.69 Tm (Uji sensitivitas utama penelitian mengubah agregasi aritmetika ke geometrik dan menghasilkan pergeseran) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 367.99 Tm (peringkat maksimum 11 posisi pada tahun 2024. Karena itu, peringkat tunggal tidak menjadi dasar pemilihan) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 352.29 Tm (proyek. Indeks tetap digunakan sebagai konteks dan pemicu pertanyaan penelaahan.) Tj ET
+BT /F2 15 Tf 0.080 0.230 0.250 rg 1 0 0 1 45.00 314.79 Tm (3. Interpretasi profil wilayah dan batas bukti) Tj ET
+0.850 0.900 0.870 RG 0.7 w 45.00 303.79 m 550.28 303.79 l S
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 281.09 Tm (Pada 2024, NDVI 0,559, suhu permukaan lahan 33,66 derajat C, dan NDBI -0,210 di Kab. Subang adalah) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 265.39 Tm (indikator agregat kabupaten/kota. ESP 59,35 yang di bawah median tahunan memunculkan pertanyaan mengenai) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 249.69 Tm (vegetasi, kondisi termal, dan fungsi lahan yang bersinggungan dengan rancangan, bukan pembuktian bahwa) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 233.99 Tm (suatu tapak rusak atau tersedia untuk alih fungsi.) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 212.79 Tm (Kemiskinan 9,49% dan TPT 6,73% adalah gambaran sosial ekonomi kabupaten/kota. SEC juga memasukkan log) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 197.09 Tm (jumlah penduduk; karenanya SEC tidak dapat diperlakukan sebagai ukuran kesejahteraan per kapita, jumlah) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 181.39 Tm (penerima manfaat, ataupun kerugian sosial dari proyek.) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 160.19 Tm (Asosiasi IDI-ESP sebesar -0,80924 pada gabungan panel menunjuk perbedaan profil antarwilayah-tahun, bukan) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 144.49 Tm (hubungan sebab akibat investasi terhadap ekologi. NDVI/LST bukan pengukuran mutu air, keanekaragaman) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 128.79 Tm (hayati, subsidensi atau seluruh daya dukung lingkungan; curah hujan/NDWI pendamping juga tidak menentukan) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 113.09 Tm (pasokan air layak alokasi.) Tj ET
+BT /F1 8 Tf 0.380 0.480 0.470 rg 1 0 0 1 490.3 32.0 Tm (3 / 12) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 27 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 7976 >>
+stream
+0.080 0.230 0.250 rg 0.00 804.89 595.28 37.00 re f
+BT /F2 9 Tf 1.000 1.000 1.000 rg 1 0 0 1 45.00 819.89 Tm (J-NEST  /  LAPORAN SIMULASI KEBIJAKAN) Tj ET
+BT /F1 8 Tf 0.830 0.920 0.880 rg 1 0 0 1 451.28 820.89 Tm (DRAF PENELITIAN) Tj ET
+0.850 0.900 0.870 RG 0.6 w 45.00 46.00 m 550.28 46.00 l S
+BT /F1 7 Tf 0.380 0.480 0.470 rg 1 0 0 1 45.00 32.00 Tm (Kerangka J-NEST-SKK | Bukan keputusan/izin pemerintah) Tj ET
+BT /F2 15 Tf 0.080 0.230 0.250 rg 1 0 0 1 45.00 749.89 Tm (4. Perbandingan rancangan dan hasil uji skenario) Tj ET
+0.850 0.900 0.870 RG 0.7 w 45.00 738.89 m 550.28 738.89 l S
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 716.19 Tm (Sebanyak 2 alternatif tercatat. Semua angka pasokan, kebutuhan, biaya dan luas lahan berasal dari isian) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 700.49 Tm (pengguna dan belum diverifikasi; kekosongan data tidak dihitung sebagai nol. Perpindahan wilayah hanya) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 684.79 Tm (mengganti konteks data administratif, bukan memprediksi dampak atau keuntungan akibat pemindahan proyek.) Tj ET
+0.080 0.230 0.250 rg 45.00 635.29 505.28 38.00 re f
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 53.00 658.09 Tm (Alternatif dan wilayah) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 207.86 658.09 Tm (Jenis opsi) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 284.84 658.09 Tm (J-NEST) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 284.84 646.59 Tm (panel) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 348.56 658.09 Tm (G1 tapak) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 423.77 658.09 Tm (Parameter proyek tercatat) Tj ET
+0.966 0.982 0.975 rg 45.00 583.99 505.28 51.30 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 621.89 Tm (Rancangan awal - Kab. Subang) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 608.79 Tm ([FOKUS]) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 207.86 621.89 Tm (Rancangan) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 207.86 608.79 Tm (awal) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 284.84 621.89 Tm (46,22) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 348.56 621.89 Tm (Belum) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 348.56 608.79 Tm (diperiksa) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 423.77 621.89 Tm (Kapasitas - m3/hari; lahan -) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 423.77 608.79 Tm (ha; investasi - Rp miliar;) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 423.77 595.69 Tm (selisih neraca belum dihitung) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 583.99 m 550.28 583.99 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 570.59 Tm (Alternatif penyesuaian - Kab.) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 557.49 Tm (Subang) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 207.86 570.59 Tm (Penyesuaian) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 207.86 557.49 Tm (kapasitas) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 284.84 570.59 Tm (46,22) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 348.56 570.59 Tm (Belum) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 348.56 557.49 Tm (diperiksa) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 423.77 570.59 Tm (Kapasitas - m3/hari; lahan -) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 423.77 557.49 Tm (ha; investasi - Rp miliar;) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 423.77 544.39 Tm (selisih neraca belum dihitung) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 532.69 m 550.28 532.69 l S
+BT /F2 11.2 Tf 0.100 0.430 0.400 rg 1 0 0 1 45.00 502.49 Tm (Pertanyaan teritorial yang harus dibuktikan pada tapak) Tj ET
+0.100 0.430 0.400 rg 48.00 484.29 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 484.19 Tm ([G0] Tutupan vegetasi dan kondisi termal. Fakta: NDVI 0,559 \(di bawah median 2024\); LST 33,66 derajat C \(di) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 468.99 Tm (atas median\). Pertanyaan: Fungsi vegetasi dan penggunaan lahan apa yang benar-benar bersinggungan dengan) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 453.79 Tm (tapak proyek? Bukti yang diperlukan: Peta tutupan lahan tapak bertanggal, pengukuran kondisi awal, fungsi) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 438.59 Tm (pengguna dan desain poligon proyek.) Tj ET
+0.100 0.430 0.400 rg 48.00 420.99 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 420.89 Tm ([G1] Kesesuaian ruang tidak tersedia pada indeks. Fakta: Skor J-NEST 46,22 dan peringkat 20/27 bukan) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 405.69 Tm (pemeriksaan legalitas lokasi. Pertanyaan: Apakah lokasi alternatif melintasi atau berbenturan dengan) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 390.49 Tm (batas/larangan yang berlaku? Bukti yang diperlukan: Koordinat tapak yang terverifikasi, overlay RTRW/RDTR) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 375.29 Tm (dan batas relevan, hasil pemeriksaan instansi berwenang.) Tj ET
+0.100 0.430 0.400 rg 48.00 357.69 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 357.59 Tm ([G2] Aktivitas terbangun dan kebutuhan desain. Fakta: NDBI -0,210 \(di bawah median\); IDI 27,7; PDRB industri) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 342.39 Tm (ADHK 4.095,3 Rp miliar. Pertanyaan: Apakah perbedaan rancangan lokasi, teknologi, luas atau tahapan) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 327.19 Tm (menghasilkan perubahan kebutuhan sumber daya yang dapat dibandingkan? Bukti yang diperlukan: Gambar) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 311.99 Tm (desain alternatif, satuan layanan yang sama, kebutuhan sumber daya, konsekuensi biaya dan ketidakpastian.) Tj ET
+0.100 0.430 0.400 rg 48.00 294.39 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 294.29 Tm ([G2] Kebutuhan sumber daya per sektor. Fakta: Panel J-NEST tidak mengukur sumber daya yang dapat) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 279.09 Tm (dialokasikan kepada usulan tertentu. Pertanyaan: Sumber daya mana yang menjadi pembatas nyata dan) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 263.89 Tm (bagaimana alternatif mengubah kebutuhannya? Bukti yang diperlukan: Kajian sektoral tapak, data pengguna) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 248.69 Tm (eksisting dan rancangan yang konsisten antaralternatif.) Tj ET
+0.100 0.430 0.400 rg 48.00 231.09 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 230.99 Tm ([G3] Fungsi penghidupan dan sumber pengetahuan. Fakta: Kemiskinan wilayah 9,49% dan TPT 6,73%; angka) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 215.79 Tm (ini bukan besaran dampak sosial proyek. Pertanyaan: Siapa pengguna sumber daya yang berpotensi terkena) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 200.59 Tm (perubahan, dan pengetahuan siapa yang diperlukan untuk menilai klaim? Bukti yang diperlukan: Pemetaan) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 185.39 Tm (pengguna/fungsi penghidupan di tapak, sumber pengetahuan, catatan masukan serta tanggapan.) Tj ET
+0.100 0.430 0.400 rg 48.00 167.79 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 167.69 Tm ([G4] Perubahan panel bukan atribusi dampak proyek. Fakta: ? NDVI 2020-2024: +0,024; ? LST -0,44 derajat C) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 152.49 Tm (\(agregat wilayah\). Pertanyaan: Bila ada perubahan setelah proyek, apakah metode/titik/waktu pembanding) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 137.29 Tm (sepadan dan penyebab lain telah dipertimbangkan? Bukti yang diperlukan: Data awal-lanjutan tapak, data) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 122.09 Tm (sumber pembanding, model proyeksi pada perencanaan atau bukti pemantauan saat pelaksanaan, catatan) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 106.89 Tm (mitigasi.) Tj ET
+BT /F1 8 Tf 0.380 0.480 0.470 rg 1 0 0 1 490.3 32.0 Tm (4 / 12) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 27 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 6373 >>
+stream
+0.080 0.230 0.250 rg 0.00 804.89 595.28 37.00 re f
+BT /F2 9 Tf 1.000 1.000 1.000 rg 1 0 0 1 45.00 819.89 Tm (J-NEST  /  LAPORAN SIMULASI KEBIJAKAN) Tj ET
+BT /F1 8 Tf 0.830 0.920 0.880 rg 1 0 0 1 451.28 820.89 Tm (DRAF PENELITIAN) Tj ET
+0.850 0.900 0.870 RG 0.6 w 45.00 46.00 m 550.28 46.00 l S
+BT /F1 7 Tf 0.380 0.480 0.470 rg 1 0 0 1 45.00 32.00 Tm (Kerangka J-NEST-SKK | Bukan keputusan/izin pemerintah) Tj ET
+BT /F2 15 Tf 0.080 0.230 0.250 rg 1 0 0 1 45.00 749.89 Tm (5. Pemeriksaan G0-G4 dan status bukti) Tj ET
+0.850 0.900 0.870 RG 0.7 w 45.00 738.89 m 550.28 738.89 l S
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 716.19 Tm (Lima tahap mengikuti Tabel 8 paper: G0 kelengkapan dan objek bukti, G1 batas hukum/ekologis, G2 kebutuhan) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 700.49 Tm (sumber daya dan alternatif, G3 kompetensi/pertanggungjawaban, G4 dampak residual sesuai tahap proyek. Lima) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 684.79 Tm (tahap tersebut merupakan alur uji analitis, bukan persyaratan izin baru.) Tj ET
+BT /F2 11.2 Tf 0.100 0.430 0.400 rg 1 0 0 1 45.00 655.09 Tm (G0 - Kelengkapan bukti \(0/3 butir dengan rujukan/alasan\)) Tj ET
+0.100 0.430 0.400 rg 48.00 636.89 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 636.79 Tm (Identitas proyek, tapak, tahap, dan kebutuhan layanan: Belum diperiksa. Sumber: belum dicatat; catatan: belum) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 621.59 Tm (dicatat. Dasar: Tabel 8 / G0.) Tj ET
+0.100 0.430 0.400 rg 48.00 603.99 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 603.89 Tm (Fungsi penghidupan, pengguna eksisting, dan akses sumber daya: Belum diperiksa. Sumber: belum dicatat;) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 588.69 Tm (catatan: belum dicatat. Dasar: SKK bagian I; Tabel 8.) Tj ET
+0.100 0.430 0.400 rg 48.00 571.09 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 570.99 Tm (Data dasar yang dapat ditelusuri \(tahun, metode, satuan\): Belum diperiksa. Sumber: belum dicatat; catatan:) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 555.79 Tm (belum dicatat. Dasar: Tabel 8-9.) Tj ET
+BT /F2 11.2 Tf 0.100 0.430 0.400 rg 1 0 0 1 45.00 529.39 Tm (G1 - Batas hukum dan ekologis \(0/3 butir dengan rujukan/alasan\)) Tj ET
+0.100 0.430 0.400 rg 48.00 511.19 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 511.09 Tm (Kesesuaian tata ruang dan batas/larangan lokasi: Belum diperiksa. Sumber: belum dicatat; catatan: belum) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 495.89 Tm (dicatat. Dasar: Tabel 8 / G1.) Tj ET
+0.100 0.430 0.400 rg 48.00 478.29 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 478.19 Tm (Ketentuan lingkungan dan persyaratan yang berlaku: Belum diperiksa. Sumber: belum dicatat; catatan: belum) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 462.99 Tm (dicatat. Dasar: Tabel 8 / G1.) Tj ET
+0.100 0.430 0.400 rg 48.00 445.39 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 445.29 Tm (Rujukan hasil pemeriksaan kepada instansi berwenang: Belum diperiksa. Sumber: belum dicatat; catatan: belum) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 430.09 Tm (dicatat. Dasar: Tabel 8 / G1.) Tj ET
+BT /F2 11.2 Tf 0.100 0.430 0.400 rg 1 0 0 1 45.00 403.69 Tm (G2 - Kesesuaian proyek \(0/3 butir dengan rujukan/alasan\)) Tj ET
+0.100 0.430 0.400 rg 48.00 385.49 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 385.39 Tm (Kebutuhan sumber daya dan layanan yang telah dialokasikan: Belum diperiksa. Sumber: belum dicatat; catatan:) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 370.19 Tm (belum dicatat. Dasar: Tabel 10-12.) Tj ET
+0.100 0.430 0.400 rg 48.00 352.59 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 352.49 Tm (Rancangan awal dan alternatif yang dibandingkan setara: Belum diperiksa. Sumber: belum dicatat; catatan:) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 337.29 Tm (belum dicatat. Dasar: Tabel 8, 12.) Tj ET
+0.100 0.430 0.400 rg 48.00 319.69 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 319.59 Tm (Skenario teknis, biaya, satuan, dan ketidakpastian selaras: Belum diperiksa. Sumber: belum dicatat; catatan:) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 304.39 Tm (belum dicatat. Dasar: Tabel 10, 12.) Tj ET
+BT /F2 11.2 Tf 0.100 0.430 0.400 rg 1 0 0 1 45.00 277.99 Tm (G3 - Proses dan tanggung jawab \(0/3 butir dengan rujukan/alasan\)) Tj ET
+0.100 0.430 0.400 rg 48.00 259.79 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 259.69 Tm (Kompetensi, sumber pengetahuan, dan peran penelaah: Belum diperiksa. Sumber: belum dicatat; catatan: belum) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 244.49 Tm (dicatat. Dasar: SKK XV-XVI; Tabel 8.) Tj ET
+0.100 0.430 0.400 rg 48.00 226.89 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 226.79 Tm (Masukan pengguna, isu material, dan tanggapan tertelusur: Belum diperiksa. Sumber: belum dicatat; catatan:) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 211.59 Tm (belum dicatat. Dasar: Tabel 8; rekomendasi penelitian.) Tj ET
+0.100 0.430 0.400 rg 48.00 193.99 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 193.89 Tm (Alasan pilihan, penanggung jawab, dan riwayat tindak lanjut: Belum diperiksa. Sumber: belum dicatat; catatan:) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 178.69 Tm (belum dicatat. Dasar: SKK tritangtu; Tabel 8.) Tj ET
+BT /F2 11.2 Tf 0.100 0.430 0.400 rg 1 0 0 1 45.00 152.29 Tm (G4 - Bukti dampak residual \(0/3 butir dengan rujukan/alasan\)) Tj ET
+0.100 0.430 0.400 rg 48.00 134.09 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 133.99 Tm (Rencana/pengamatan awal dan pembanding yang sepadan: Belum diperiksa. Sumber: belum dicatat; catatan:) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 118.79 Tm (belum dicatat. Dasar: Tabel 8-9.) Tj ET
+0.100 0.430 0.400 rg 48.00 101.19 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 101.09 Tm (Alternatif penghindaran, pengurangan, pemulihan dan dampak tersisa: Belum diperiksa. Sumber: belum dicatat;) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 85.89 Tm (catatan: belum dicatat. Dasar: Tabel 8 / G4.) Tj ET
+BT /F1 8 Tf 0.380 0.480 0.470 rg 1 0 0 1 490.3 32.0 Tm (5 / 12) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 27 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 7183 >>
+stream
+0.080 0.230 0.250 rg 0.00 804.89 595.28 37.00 re f
+BT /F2 9 Tf 1.000 1.000 1.000 rg 1 0 0 1 45.00 819.89 Tm (J-NEST  /  LAPORAN SIMULASI KEBIJAKAN) Tj ET
+BT /F1 8 Tf 0.830 0.920 0.880 rg 1 0 0 1 451.28 820.89 Tm (DRAF PENELITIAN) Tj ET
+0.850 0.900 0.870 RG 0.6 w 45.00 46.00 m 550.28 46.00 l S
+BT /F1 7 Tf 0.380 0.480 0.470 rg 1 0 0 1 45.00 32.00 Tm (Kerangka J-NEST-SKK | Bukan keputusan/izin pemerintah) Tj ET
+0.100 0.430 0.400 rg 48.00 766.49 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 766.39 Tm (Ketidakpastian dan atribusi perubahan terhadap proyek: Belum diperiksa. Sumber: belum dicatat; catatan: belum) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 751.19 Tm (dicatat. Dasar: Tabel 9 / G4.) Tj ET
+0.990 0.970 0.920 rg 45.00 691.99 505.28 51.00 re f
+0.730 0.520 0.280 rg 45.00 691.99 3.00 51.00 re f
+BT /F1 9.3 Tf 0.120 0.250 0.260 rg 1 0 0 1 58.00 723.69 Tm (HASIL G1: Terdapat dugaan konflik: TAHAN DAN RUJUK instansi berwenang. Skor J-NEST tidak dapat) Tj ET
+BT /F1 9.3 Tf 0.120 0.250 0.260 rg 1 0 0 1 58.00 708.69 Tm (mengesampingkan larangan hukum ataupun persyaratan ekologis.) Tj ET
+BT /F2 15 Tf 0.080 0.230 0.250 rg 1 0 0 1 45.00 651.99 Tm (6. Rekomendasi kebijakan yang dapat ditindaklanjuti) Tj ET
+0.850 0.900 0.870 RG 0.7 w 45.00 640.99 m 550.28 640.99 l S
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 618.29 Tm (Hasil aturan adalah: TAHAN & RUJUK PEMERIKSAAN G1. Terdapat indikasi benturan dengan batas yang) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 602.59 Tm (berlaku. Hentikan klaim kelayakan dari simulasi dan minta pemeriksaan instansi berwenang. Penanggung jawab) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 586.89 Tm (yang dicatat: belum ditentukan. Arahan berikut merupakan bahan pemeriksaan dan perubahan rancangan yang) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 571.19 Tm (dapat diajukan, bukan pemilihan otomatis opsi investasi terbaik.) Tj ET
+0.100 0.430 0.400 rg 48.00 550.29 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 550.19 Tm (Uji apakah rancangan awal masih tepat. Rancangan awal menjadi titik pembanding, bukan alternatif yang) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 534.99 Tm (otomatis layak. Nyatakan objek tapak dan perubahan yang mungkin dilakukan. \(Dasar: Paper Tabel 12\).) Tj ET
+BT /F2 11.2 Tf 0.100 0.430 0.400 rg 1 0 0 1 45.00 508.59 Tm (Kebutuhan bukti yang belum selesai \(18 temuan\)) Tj ET
+0.100 0.430 0.400 rg 48.00 490.39 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 490.29 Tm ([G0] Identitas proyek, tapak, tahap, dan kebutuhan layanan: Bukti belum terinci atau baru berupa klaim. Nama,) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 475.09 Tm (lokasi, rancangan, kondisi awal dan batas penilaian harus jelas.) Tj ET
+0.100 0.430 0.400 rg 48.00 457.49 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 457.39 Tm ([G0] Fungsi penghidupan, pengguna eksisting, dan akses sumber daya: Bukti belum terinci atau baru berupa) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 442.19 Tm (klaim. Identifikasi siapa menggunakan fungsi sumber daya pada lokasi.) Tj ET
+0.100 0.430 0.400 rg 48.00 424.59 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 424.49 Tm ([G0] Data dasar yang dapat ditelusuri \(tahun, metode, satuan\): Bukti belum terinci atau baru berupa klaim. Tanpa) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 409.29 Tm (kondisi awal yang sepadan, perubahan tidak dapat diatribusikan.) Tj ET
+0.100 0.430 0.400 rg 48.00 391.69 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 391.59 Tm ([G1] Kesesuaian tata ruang dan batas/larangan lokasi: Bukti belum terinci atau baru berupa klaim. Batas hukum) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 376.39 Tm (tidak dapat diganti atau dikompensasi oleh skor komposit.) Tj ET
+0.100 0.430 0.400 rg 48.00 358.79 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 358.69 Tm ([G1] Ketentuan lingkungan dan persyaratan yang berlaku: Bukti belum terinci atau baru berupa klaim. Gunakan) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 343.49 Tm (instrumen hukum/ekologi yang sesuai, bukan ambang baru J-NEST.) Tj ET
+0.100 0.430 0.400 rg 48.00 325.89 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 325.79 Tm ([G1] Rujukan hasil pemeriksaan kepada instansi berwenang: Bukti belum terinci atau baru berupa klaim. Klaim) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 310.59 Tm (penelaah tidak sama dengan persetujuan dari pejabat berwenang.) Tj ET
+0.100 0.430 0.400 rg 48.00 292.99 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 292.89 Tm ([G2] Kebutuhan sumber daya dan layanan yang telah dialokasikan: Bukti belum terinci atau baru berupa klaim.) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 277.69 Tm (Kapasitas terpasang != tambahan pasokan yang dapat dialokasikan.) Tj ET
+0.100 0.430 0.400 rg 48.00 260.09 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 259.99 Tm ([G2] Rancangan awal dan alternatif yang dibandingkan setara: Bukti belum terinci atau baru berupa klaim.) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 244.79 Tm (Periksa lokasi, teknologi, kapasitas, tahapan, atau tanpa proyek bila relevan.) Tj ET
+0.100 0.430 0.400 rg 48.00 227.19 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 227.09 Tm ([G2] Skenario teknis, biaya, satuan, dan ketidakpastian selaras: Bukti belum terinci atau baru berupa klaim. Arus) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 211.89 Tm (kas dan volume layanan harus mengacu pada rancangan yang sama.) Tj ET
+0.100 0.430 0.400 rg 48.00 194.29 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 194.19 Tm ([G3] Kompetensi, sumber pengetahuan, dan peran penelaah: Bukti belum terinci atau baru berupa klaim. Pihak) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 178.99 Tm (yang tepat memeriksa klaim yang relevan; kewenangan tetap resmi.) Tj ET
+0.100 0.430 0.400 rg 48.00 161.39 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 161.29 Tm ([G3] Masukan pengguna, isu material, dan tanggapan tertelusur: Bukti belum terinci atau baru berupa klaim.) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 146.09 Tm (Tautkan masukan dengan tindakan atau alasan tidak mengubah rancangan.) Tj ET
+0.100 0.430 0.400 rg 48.00 128.49 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 128.39 Tm ([G3] Alasan pilihan, penanggung jawab, dan riwayat tindak lanjut: Bukti belum terinci atau baru berupa klaim.) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 113.19 Tm (Pemisahan peran dan keputusan terdokumentasi; tidak menyamakan tritangtu dengan lembaga.) Tj ET
+0.100 0.430 0.400 rg 48.00 95.59 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 95.49 Tm ([G4] Rencana/pengamatan awal dan pembanding yang sepadan: Bukti belum terinci atau baru berupa klaim.) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 80.29 Tm (Samakan titik, parameter, metode, dan waktu sesuai tahap proyek.) Tj ET
+BT /F1 8 Tf 0.380 0.480 0.470 rg 1 0 0 1 490.3 32.0 Tm (6 / 12) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 27 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Length 6579 >>
+stream
+0.080 0.230 0.250 rg 0.00 804.89 595.28 37.00 re f
+BT /F2 9 Tf 1.000 1.000 1.000 rg 1 0 0 1 45.00 819.89 Tm (J-NEST  /  LAPORAN SIMULASI KEBIJAKAN) Tj ET
+BT /F1 8 Tf 0.830 0.920 0.880 rg 1 0 0 1 451.28 820.89 Tm (DRAF PENELITIAN) Tj ET
+0.850 0.900 0.870 RG 0.6 w 45.00 46.00 m 550.28 46.00 l S
+BT /F1 7 Tf 0.380 0.480 0.470 rg 1 0 0 1 45.00 32.00 Tm (Kerangka J-NEST-SKK | Bukan keputusan/izin pemerintah) Tj ET
+0.100 0.430 0.400 rg 48.00 766.49 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 766.39 Tm ([G4] Alternatif penghindaran, pengurangan, pemulihan dan dampak tersisa: Bukti belum terinci atau baru berupa) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 751.19 Tm (klaim. Pada rencana gunakan proyeksi; pada pelaksanaan gunakan hasil pengamatan.) Tj ET
+0.100 0.430 0.400 rg 48.00 733.59 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 733.49 Tm ([G4] Ketidakpastian dan atribusi perubahan terhadap proyek: Bukti belum terinci atau baru berupa klaim.) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 718.29 Tm (Pelampauan baku mutu saja belum membuktikan dampak konstruksi.) Tj ET
+0.100 0.430 0.400 rg 48.00 700.69 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 700.59 Tm ([G0] Persoalan awal belum dinyatakan: Rumuskan ketidakpastian dan tujuan kebijakan yang ditelaah.) Tj ET
+0.100 0.430 0.400 rg 48.00 682.99 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 682.89 Tm ([G0] Tujuan pemeriksaan belum dinyatakan: Nyatakan pertanyaan proyek yang akan diuji oleh alternatif.) Tj ET
+0.100 0.430 0.400 rg 48.00 665.29 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 665.19 Tm ([G3] Penanggung jawab simulasi belum diidentifikasi: Sebut unit/pemilik proses yang menyiapkan kasus, tanpa) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 649.99 Tm (memadankan SKK dengan kelembagaan modern.) Tj ET
+BT /F2 11.2 Tf 0.100 0.430 0.400 rg 1 0 0 1 45.00 623.59 Tm (Pilihan tindakan kebijakan) Tj ET
+0.100 0.430 0.400 rg 48.00 605.39 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 605.29 Tm (Mempertahankan rancangan awal hanya bila alasan, syarat, batas hukum, dan dampak terhadap pengguna) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 590.09 Tm (dapat dijelaskan dengan bukti proyek yang sah.) Tj ET
+0.100 0.430 0.400 rg 48.00 572.49 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 572.39 Tm (Menyesuaikan lokasi/tata letak, teknologi, kapasitas atau pentahapan berdasarkan perbandingan desain dan) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 557.19 Tm (biaya yang menggunakan satuan layanan serta periode sama.) Tj ET
+0.100 0.430 0.400 rg 48.00 539.59 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 539.49 Tm (Menunda kesimpulan dan meminta dokumen spesifik ketika G0-G4 belum lengkap; menghentikan klaim) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 524.29 Tm (kelayakan bila terdapat indikasi konflik G1 sampai instansi berwenang memeriksa.) Tj ET
+BT /F2 15 Tf 0.080 0.230 0.250 rg 1 0 0 1 45.00 490.09 Tm (7. Integrasi filosofi Siksakandang Karesian \(SKK\)) Tj ET
+0.850 0.900 0.870 RG 0.7 w 45.00 479.09 m 550.28 479.09 l S
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 456.39 Tm (Tafsir berikut adalah konstruksi kontemporer penelitian berdasarkan pembacaan terarah naskah SKK serta kritik) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 440.69 Tm (sumber \(paper bagian sintesis kualitatif, Tabel 6 dan 7\). SKK tidak memuat ambang ekologis numerik, formula) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 424.99 Tm (kompensasi, prosedur izin modern, atau pembagian jabatan pemerintahan saat ini.) Tj ET
+BT /F2 11.2 Tf 0.100 0.430 0.400 rg 1 0 0 1 45.00 395.29 Tm (Bagian I - menjaga fungsi sumber penghidupan) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 376.79 Tm (Profil vegetasi-termal Kab. Subang \(NDVI 0,559; LST 33,66 derajat C\) menjadi alasan untuk menanyakan fungsi) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 361.09 Tm (yang benar-benar dilayani oleh lahan, air dan ruang di lokasi proyek. Rekomendasi operasional: pemilik proyek) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 345.39 Tm (mengidentifikasi lokasi sumber daya, penggunanya, layanan saat ini, perubahan fungsi pada setiap alternatif,) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 329.69 Tm (serta cara menjaga akses dan kontinuitas penghidupan. Angka panel tidak dapat menjawab siapa yang) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 313.99 Tm (terdampak: verifikasi tapak dan masukan pengguna tetap diperlukan.) Tj ET
+BT /F2 11.2 Tf 0.100 0.430 0.400 rg 1 0 0 1 45.00 284.29 Tm (Bagian XV-XVI - ketepatan sumber pengetahuan) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 265.79 Tm (Pengetahuan yang relevan harus diperoleh dari pihak yang memahami klaim. Untuk sektor Proyek investasi) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 250.09 Tm (lainnya, pemeriksa teknis yang sesuai menilai desain dan kebutuhan sumber daya, pengguna setempat) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 234.39 Tm (menjelaskan fungsi pemanfaatan, sedangkan penelaah keuangan menilai asumsi biaya dan arus kas dari) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 218.69 Tm (rancangan yang sama. Rekomendasi G3: catat identitas, kompetensi, bukti yang ditelaah, batas ketidakpastian,) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 202.99 Tm (dan tanggapan atas masukan material. Pengetahuan pengguna melengkapi, bukan menggantikan pemeriksaan) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 187.29 Tm (teknis dan kewenangan resmi.) Tj ET
+BT /F2 11.2 Tf 0.100 0.430 0.400 rg 1 0 0 1 45.00 157.59 Tm (Tritangtu - pembedaan peran dan akuntabilitas) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 139.09 Tm (Tema tritangtu ditafsirkan sebagai dorongan untuk membedakan penyusun klaim, pemeriksa bukti dan pengambil) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 123.39 Tm (keputusan, tanpa menyamakan rama, resi dan prabu dengan jabatan modern. Usulan pembagian kerja penelitian:) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 107.69 Tm (DPMPTSP/pemilik proses mengelola versi penawaran, Bappeda membaca konteks teritorial, pemilik proyek) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 91.99 Tm (menyajikan alternatif, penelaah sektoral memverifikasi teknis, pengguna sumber daya menyampaikan informasi,) Tj ET
+BT /F1 8 Tf 0.380 0.480 0.470 rg 1 0 0 1 490.3 32.0 Tm (7 / 12) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 27 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Length 5980 >>
+stream
+0.080 0.230 0.250 rg 0.00 804.89 595.28 37.00 re f
+BT /F2 9 Tf 1.000 1.000 1.000 rg 1 0 0 1 45.00 819.89 Tm (J-NEST  /  LAPORAN SIMULASI KEBIJAKAN) Tj ET
+BT /F1 8 Tf 0.830 0.920 0.880 rg 1 0 0 1 451.28 820.89 Tm (DRAF PENELITIAN) Tj ET
+0.850 0.900 0.870 RG 0.6 w 45.00 46.00 m 550.28 46.00 l S
+BT /F1 7 Tf 0.380 0.480 0.470 rg 1 0 0 1 45.00 32.00 Tm (Kerangka J-NEST-SKK | Bukan keputusan/izin pemerintah) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 766.19 Tm (dan instansi berwenang memutuskan sesuai mandat. Semua masukan, alasan, dan tindak lanjut material harus) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 750.49 Tm (dapat ditelusuri.) Tj ET
+0.990 0.970 0.920 rg 45.00 687.99 505.28 51.00 re f
+0.730 0.520 0.280 rg 45.00 687.99 3.00 51.00 re f
+BT /F1 9.3 Tf 0.120 0.250 0.260 rg 1 0 0 1 58.00 719.69 Tm (SKK memberi orientasi etis dan tata kelola pertanyaan, tidak memberi bobot statistik tambahan, angka) Tj ET
+BT /F1 9.3 Tf 0.120 0.250 0.260 rg 1 0 0 1 58.00 704.69 Tm (kompensasi, izin, maupun hak untuk mengesampingkan batas hukum.) Tj ET
+BT /F2 15 Tf 0.080 0.230 0.250 rg 1 0 0 1 45.00 647.99 Tm (8. Dampak residual dan pertimbangan kompensasi) Tj ET
+0.850 0.900 0.870 RG 0.7 w 45.00 636.99 m 550.28 636.99 l S
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 614.29 Tm (Proyeksi dampak residual dan efektivitas mitigasi masih memerlukan kajian; kompensasi tidak dihitung atau) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 598.59 Tm (diputuskan dalam simulasi.) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 577.39 Tm (Pada tahap perencanaan, pemeriksaan G4 menilai proyeksi dampak setelah penghindaran, pengurangan dan) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 561.69 Tm (pemulihan yang direncanakan, disertai kajian alternatif dan ketidakpastian. Proyeksi tidak boleh diperlakukan) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 545.99 Tm (sebagai dampak terukur.) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 524.79 Tm (Penetapan bentuk atau besaran kompensasi ekologis hanya dapat dibahas setelah dampak tersisa yang relevan) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 509.09 Tm (dibuktikan sesuai tahap, fungsi lingkungan dinilai, dan instrumen resmi diperiksa. Kompensasi tidak otomatis) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 493.39 Tm (mengganti kehilangan fungsi ekologis; pengadaan tanah atau pembayaran sosial juga tidak dapat disamakan) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 477.69 Tm (dengan pemulihan ekologis.) Tj ET
+BT /F2 15 Tf 0.080 0.230 0.250 rg 1 0 0 1 45.00 440.19 Tm (9. Usulan pilot, evaluasi nilai tambah, dan peran) Tj ET
+0.850 0.900 0.870 RG 0.7 w 45.00 429.19 m 550.28 429.19 l S
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 406.49 Tm (Rancangan penelitian mengusulkan pilot enam bulan pada satu proyek dengan opsi yang masih dapat diubah dan) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 390.79 Tm (berkas yang dapat diakses. Bulan 1: G0-G1; bulan 2-3: perbandingan G2; bulan 4-5: G3-G4 sesuai tahap proyek;) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 375.09 Tm (bulan 6: evaluasi independen. Ini usulan penelitian, bukan kegiatan yang telah berlangsung atau penetapan tugas) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 359.39 Tm (resmi perangkat daerah.) Tj ET
+0.080 0.230 0.250 rg 45.00 321.39 505.28 26.50 re f
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 53.00 332.69 Tm (Indikator evaluasi) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 303.14 332.69 Tm (Nilai menurut input) Tj ET
+0.966 0.982 0.975 rg 45.00 296.29 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 307.99 Tm (Temuan tambahan terverifikasi) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 303.14 307.99 Tm (-) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 296.29 m 550.28 296.29 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 282.89 Tm (Perubahan/syarat yang ditindaklanjuti) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 303.14 282.89 Tm (-) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 271.19 m 550.28 271.19 l S
+0.966 0.982 0.975 rg 45.00 246.09 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 257.79 Tm (Klaim yang belum terbukti) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 303.14 257.79 Tm (-) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 246.09 m 550.28 246.09 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 232.69 Tm (Tambahan beban waktu \(jam\)) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 303.14 232.69 Tm (-) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 220.99 m 550.28 220.99 l S
+0.966 0.982 0.975 rg 45.00 195.89 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 207.59 Tm (Pembanding biasa dibekukan) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 303.14 207.59 Tm (Belum) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 195.89 m 550.28 195.89 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 182.49 Tm (Penilaian independen) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 303.14 182.49 Tm (Belum) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 170.79 m 550.28 170.79 l S
+0.966 0.982 0.975 rg 45.00 145.69 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 157.39 Tm (Penelaah independen) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 303.14 157.39 Tm (Belum dicatat) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 145.69 m 550.28 145.69 l S
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 123.99 Tm (Interpretasi data pilot: Hasil ini belum memenuhi desain evaluasi yang disyaratkan penelitian; jangan mengklaim) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 108.29 Tm (nilai tambah J-NEST. Tambahan manfaat hanya dapat dinilai bila temuan baru dibandingkan dengan proses) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 92.59 Tm (penelaahan biasa memakai berkas dan tahap sepadan, perubahannya benar-benar ditindaklanjuti, serta jam kerja) Tj ET
+BT /F1 8 Tf 0.380 0.480 0.470 rg 1 0 0 1 490.3 32.0 Tm (8 / 12) Tj ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 27 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 17 0 R >>
+endobj
+19 0 obj
+<< /Length 7154 >>
+stream
+0.080 0.230 0.250 rg 0.00 804.89 595.28 37.00 re f
+BT /F2 9 Tf 1.000 1.000 1.000 rg 1 0 0 1 45.00 819.89 Tm (J-NEST  /  LAPORAN SIMULASI KEBIJAKAN) Tj ET
+BT /F1 8 Tf 0.830 0.920 0.880 rg 1 0 0 1 451.28 820.89 Tm (DRAF PENELITIAN) Tj ET
+0.850 0.900 0.870 RG 0.6 w 45.00 46.00 m 550.28 46.00 l S
+BT /F1 7 Tf 0.380 0.480 0.470 rg 1 0 0 1 45.00 32.00 Tm (Kerangka J-NEST-SKK | Bukan keputusan/izin pemerintah) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 766.19 Tm (dicatat.) Tj ET
+BT /F2 15 Tf 0.080 0.230 0.250 rg 1 0 0 1 45.00 728.69 Tm (10. Sumber, jejak perhitungan dan batas penerapan) Tj ET
+0.850 0.900 0.870 RG 0.7 w 45.00 717.69 m 550.28 717.69 l S
+0.100 0.430 0.400 rg 48.00 695.29 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 695.19 Tm (Sumber penelitian: Kerangka J-NEST untuk Penapisan Investasi dan Telaah Kompensasi Ekologis) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 679.99 Tm (Pantura-Rebana Berbasis Siksa Kandang Karesian \(2026\), Tabel 1 dan Persamaan 1-5 \(indeks\), Tabel 3-5 \(profil) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 664.79 Tm (dan sensitivitas\), Tabel 6-8 \(SKK dan G0-G4\), Tabel 9-10 \(audit dokumen contoh\), Tabel 12-13 \(alternatif dan) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 649.59 Tm (pilot\).) Tj ET
+0.100 0.430 0.400 rg 48.00 631.99 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 631.89 Tm (Panel input: jnes_master_panel_2020_2024.csv, jnes_gee_features_admin2_year_2020_2024.csv, dan) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 616.69 Tm (jnest_bps_manufacturing_admin2_year_2020_2024.csv. Perhitungan pada panel olahan direproduksi; asal data) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 601.49 Tm (BPS dan produk GEE, cloud masking, agregasi citra serta kode sumber memerlukan audit primer.) Tj ET
+0.100 0.430 0.400 rg 48.00 583.89 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 583.79 Tm (Jejak opsi fokus: Kab. Subang, kode BPS 3213, tahun 2024; J-NEST 46,2163, IDI 27,7299, SEC 51,5643, ESP) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 568.59 Tm (59,3546, peringkat 20/27. Ini hasil historis pada unit kabupaten/kota, bukan skor pada tapak.) Tj ET
+0.100 0.430 0.400 rg 48.00 550.99 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 550.89 Tm (Rujukan kelembagaan: Perpres 87/2021 untuk tujuh wilayah Rebana dan Perda Jawa Barat Nomor 4/2025) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 535.69 Tm (tentang investasi. Perangkat daerah berwenang tetap wajib memeriksa ketentuan terbaru dan instrumen yang) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 520.49 Tm (relevan pada tapak.) Tj ET
+0.100 0.430 0.400 rg 48.00 502.89 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 502.79 Tm (Semua parameter biaya, kebutuhan sumber daya, catatan G1, klaim sumber dan verifikasi penelaah yang) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 487.59 Tm (diisikan pengguna bersifat asumsi/simulasi, kecuali tersedia bukti eksternal yang disahkan. Tidak ada) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 472.39 Tm (pembuktian sebab-akibat investasi terhadap indeks, skor legalitas, tarif kompensasi, ataupun prediksi masa) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 457.19 Tm (depan.) Tj ET
+0.990 0.970 0.920 rg 45.00 382.99 505.28 66.00 re f
+0.730 0.520 0.280 rg 45.00 382.99 3.00 66.00 re f
+BT /F1 9.3 Tf 0.120 0.250 0.260 rg 1 0 0 1 58.00 429.69 Tm (KEPUTUSAN AKHIR: Laporan merupakan bahan penelaahan, bukan keputusan/izin atau dokumen resmi) Tj ET
+BT /F1 9.3 Tf 0.120 0.250 0.260 rg 1 0 0 1 58.00 414.69 Tm (Pemerintah Provinsi Jawa Barat. Nilai tambah J-NEST-SKK terhadap prosedur pemerintah yang berjalan masih) Tj ET
+BT /F1 9.3 Tf 0.120 0.250 0.260 rg 1 0 0 1 58.00 399.69 Tm (perlu diuji secara prospektif.) Tj ET
+BT /F2 15 Tf 0.080 0.230 0.250 rg 1 0 0 1 45.00 342.99 Tm (11. Rantai kewenangan dan serah-terima lembaga) Tj ET
+0.850 0.900 0.870 RG 0.7 w 45.00 331.99 m 550.28 331.99 l S
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 309.29 Tm (Rancangan alur kelembagaan V5 berikut merupakan usulan pengujian yang perlu dikonfirmasi melalui SOP) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 293.59 Tm (pemilik proses. Bappeda berfokus pada analisis kewilayahan dan keterkaitan rencana pembangunan, DPMPTSP) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 277.89 Tm (mengoordinasikan penyiapan penawaran serta layanan investasi. Penilaian teknis, lingkungan, tata ruang, dan) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 262.19 Tm (penerbitan izin tetap mengikuti otoritas serta instrumen resmi. Peran yang dipilih dalam aplikasi bukan identitas) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 246.49 Tm (terautentikasi.) Tj ET
+0.080 0.230 0.250 rg 45.00 208.49 505.28 26.50 re f
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 53.00 219.79 Tm (Tahap / penanggung jawab) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 188.07 219.79 Tm (Kegiatan dan keluaran) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 452.22 219.79 Tm (Status / jejak) Tj ET
+0.966 0.982 0.975 rg 45.00 170.29 505.28 38.20 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 195.09 Tm (S0: DPMPTSP) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 188.07 195.09 Tm (Pra-G0: Berkas awal dan daftar kekurangan informasi untuk) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 188.07 181.99 Tm (Bappeda) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 452.22 195.09 Tm (Diserahkan \(simulasi\) |) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 452.22 181.99 Tm (26 Okt 2026, 08.56) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 170.29 m 550.28 170.29 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 156.89 Tm (S1: Bappeda) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 188.07 156.89 Tm (G0 / profil: Nota diagnosis wilayah dan pertanyaan awal) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 188.07 143.79 Tm (pemeriksaan tapak) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 452.22 156.89 Tm (Diserahkan \(simulasi\) |) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 452.22 143.79 Tm (26 Okt 2026, 08.56) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 132.09 m 550.28 132.09 l S
+0.966 0.982 0.975 rg 45.00 93.89 505.28 38.20 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 118.69 Tm (S2: DPMPTSP) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 188.07 118.69 Tm (G0: Daftar bukti material G0 dan rencana pemeriksaan) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 452.22 118.69 Tm (Diserahkan \(simulasi\) |) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 452.22 105.59 Tm (26 Okt 2026, 08.56) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 93.89 m 550.28 93.89 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 80.49 Tm (S3: OPD/penelaah teknis) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 188.07 80.49 Tm (G1 - wajib: Catatan hasil G1 per alternatif - bukan izin) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 452.22 80.49 Tm (Belum) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 68.79 m 550.28 68.79 l S
+BT /F1 8 Tf 0.380 0.480 0.470 rg 1 0 0 1 490.3 32.0 Tm (9 / 12) Tj ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 27 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 19 0 R >>
+endobj
+21 0 obj
+<< /Length 7494 >>
+stream
+0.080 0.230 0.250 rg 0.00 804.89 595.28 37.00 re f
+BT /F2 9 Tf 1.000 1.000 1.000 rg 1 0 0 1 45.00 819.89 Tm (J-NEST  /  LAPORAN SIMULASI KEBIJAKAN) Tj ET
+BT /F1 8 Tf 0.830 0.920 0.880 rg 1 0 0 1 451.28 820.89 Tm (DRAF PENELITIAN) Tj ET
+0.850 0.900 0.870 RG 0.6 w 45.00 46.00 m 550.28 46.00 l S
+BT /F1 7 Tf 0.380 0.480 0.470 rg 1 0 0 1 45.00 32.00 Tm (Kerangka J-NEST-SKK | Bukan keputusan/izin pemerintah) Tj ET
+0.080 0.230 0.250 rg 45.00 749.39 505.28 26.50 re f
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 53.00 760.69 Tm (Tahap / penanggung jawab) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 188.07 760.69 Tm (Kegiatan dan keluaran) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 452.22 760.69 Tm (Status / jejak) Tj ET
+0.966 0.982 0.975 rg 45.00 724.29 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 735.99 Tm (S4: Pemilik proyek) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 188.07 735.99 Tm (G2: Matriks alternatif dengan alasan usulan perubahan) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 452.22 735.99 Tm (Belum) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 724.29 m 550.28 724.29 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 710.89 Tm (S5: DPMPTSP) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 188.07 710.89 Tm (G3 / SKK: Matriks masukan, penelaah, respons dan revisi) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 188.07 697.79 Tm (desain) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 452.22 710.89 Tm (Belum) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 686.09 m 550.28 686.09 l S
+0.966 0.982 0.975 rg 45.00 647.89 505.28 38.20 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 672.69 Tm (S6: Instansi/penelaah) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 659.59 Tm (lingkungan) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 188.07 672.69 Tm (G4: Nota kecukupan bukti dampak residual; bukan tarif) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 188.07 659.59 Tm (kompensasi) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 452.22 672.69 Tm (Belum) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 647.89 m 550.28 647.89 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 634.49 Tm (S7: Bappeda) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 188.07 634.49 Tm (G0-G4 / sintesis: Nota rekomendasi kebijakan J-NEST-SKK) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 188.07 621.39 Tm (untuk koordinasi DPMPTSP) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 452.22 634.49 Tm (Belum) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 609.69 m 550.28 609.69 l S
+0.966 0.982 0.975 rg 45.00 571.49 505.28 38.20 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 596.29 Tm (S8: DPMPTSP) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 188.07 596.29 Tm (OSS / eksternal: Berita acara serah-terima dokumen dan daftar) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 188.07 583.19 Tm (status OSS/instansi \(eksternal\)) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 452.22 596.29 Tm (Belum) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 571.49 m 550.28 571.49 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 558.09 Tm (S9: DPMPTSP) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 188.07 558.09 Tm (Monitoring / evaluasi: Ringkasan evaluasi pilot dan keputusan) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 188.07 544.99 Tm (apakah uji diperluas) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 452.22 558.09 Tm (Belum) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 533.29 m 550.28 533.29 l S
+BT /F2 11.2 Tf 0.100 0.430 0.400 rg 1 0 0 1 45.00 503.09 Tm (Bukti serah-terima dan batas verifikasi) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 484.59 Tm (S0. DPMPTSP. Rujukan pengguna: Berkas demo internal S0, belum terverifikasi instansi resmi; catatan: Tahap S0) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 468.89 Tm (dicek dalam latihan saja, memerlukan validasi sumber.. Dicatat 26 Okt 2026, 08.56 menggunakan peran simulasi) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 453.19 Tm (DPMPTSP.) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 431.99 Tm (S1. Bappeda. Rujukan pengguna: Berkas demo internal S1, belum terverifikasi instansi resmi; catatan: Tahap S1) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 416.29 Tm (dicek dalam latihan saja, memerlukan validasi sumber.. Dicatat 26 Okt 2026, 08.56 menggunakan peran simulasi) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 400.59 Tm (Bappeda.) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 379.39 Tm (S2. DPMPTSP. Rujukan pengguna: Berkas demo internal S2, belum terverifikasi instansi resmi; catatan: Tahap S2) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 363.69 Tm (dicek dalam latihan saja, memerlukan validasi sumber.. Dicatat 26 Okt 2026, 08.56 menggunakan peran simulasi) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 347.99 Tm (DPMPTSP.) Tj ET
+BT /F2 15 Tf 0.080 0.230 0.250 rg 1 0 0 1 45.00 310.49 Tm (12. Laboratorium evaluasi tiga pendekatan penelaahan) Tj ET
+0.850 0.900 0.870 RG 0.7 w 45.00 299.49 m 550.28 299.49 l S
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 276.79 Tm (Desain uji mengikuti usulan paper: telaah biasa sebagai pembanding, telaah dengan tiga profil J-NEST, dan) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 261.09 Tm (telaah dengan J-NEST serta pertanyaan SKK pada paket yang setara. Nilai masukan pada tabel berikut bukan) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 245.39 Tm (pengukuran oleh aplikasi; diisi dan diverifikasi secara terpisah oleh pengguna.) Tj ET
+0.080 0.230 0.250 rg 45.00 207.39 505.28 26.50 re f
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 53.00 218.69 Tm (Pendekatan) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 213.09 218.69 Tm (Temuan tambahan) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 337.16 218.69 Tm (Perubahan ditindaklanjuti) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 463.23 218.69 Tm (Jam kerja) Tj ET
+0.966 0.982 0.975 rg 45.00 182.29 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 193.99 Tm (A - Proses biasa) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 213.09 193.99 Tm (1) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 337.16 193.99 Tm (0) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 463.23 193.99 Tm (12,0) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 182.29 m 550.28 182.29 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 168.89 Tm (B - J-NEST) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 213.09 168.89 Tm (3) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 337.16 168.89 Tm (1) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 463.23 168.89 Tm (16,0) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 157.19 m 550.28 157.19 l S
+0.966 0.982 0.975 rg 45.00 132.09 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 143.79 Tm (C - J-NEST + SKK) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 213.09 143.79 Tm (5) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 337.16 143.79 Tm (2) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 463.23 143.79 Tm (18,0) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 132.09 m 550.28 132.09 l S
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 110.39 Tm (Berkas pembanding dibekukan: dinyatakan ya. Perbandingan tahap/waktu sepadan: dinyatakan ya. Penelaah) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 94.69 Tm (independen: Penelaah ilustratif. Hasil perbedaan tidak boleh diperlakukan sebagai bukti kausal manfaat J-NEST) Tj ET
+BT /F1 8 Tf 0.380 0.480 0.470 rg 1 0 0 1 490.3 32.0 Tm (10 / 12) Tj ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 27 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 21 0 R >>
+endobj
+23 0 obj
+<< /Length 6711 >>
+stream
+0.080 0.230 0.250 rg 0.00 804.89 595.28 37.00 re f
+BT /F2 9 Tf 1.000 1.000 1.000 rg 1 0 0 1 45.00 819.89 Tm (J-NEST  /  LAPORAN SIMULASI KEBIJAKAN) Tj ET
+BT /F1 8 Tf 0.830 0.920 0.880 rg 1 0 0 1 451.28 820.89 Tm (DRAF PENELITIAN) Tj ET
+0.850 0.900 0.870 RG 0.6 w 45.00 46.00 m 550.28 46.00 l S
+BT /F1 7 Tf 0.380 0.480 0.470 rg 1 0 0 1 45.00 32.00 Tm (Kerangka J-NEST-SKK | Bukan keputusan/izin pemerintah) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 766.19 Tm (tanpa pembandingan berkas yang kuat.) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 744.99 Tm (A - Proses biasa - sumber / catatan: DEMO HIPOTETIS: notula penelaahan internal \(tidak ada dokumen resmi\)) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 723.79 Tm (B - J-NEST - sumber / catatan: DEMO HIPOTETIS: notula penelaahan internal \(tidak ada dokumen resmi\)) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 702.59 Tm (C - J-NEST + SKK - sumber / catatan: DEMO HIPOTETIS: notula penelaahan internal \(tidak ada dokumen resmi\)) Tj ET
+BT /F2 11.2 Tf 0.100 0.430 0.400 rg 1 0 0 1 45.00 672.89 Tm (Register hipotesis perbaikan rancangan) Tj ET
+0.080 0.230 0.250 rg 45.00 637.59 505.28 26.50 re f
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 53.00 648.89 Tm (Usulan) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 218.09 648.89 Tm (Status) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 343.16 648.89 Tm (Peran dan dasar) Tj ET
+0.966 0.982 0.975 rg 45.00 599.39 505.28 38.20 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 624.19 Tm (Kapasitas bertahap berbasis neraca) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 611.09 Tm (layanan) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 218.09 624.19 Tm (Diusulkan untuk diuji) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 343.16 624.19 Tm (DPMPTSP; Hipotesis untuk G2 dan fungsi) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 343.16 611.09 Tm (penghidupan SKK bagian I, bukan hasil lapangan.) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 599.39 m 550.28 599.39 l S
+BT /F2 15 Tf 0.080 0.230 0.250 rg 1 0 0 1 45.00 561.39 Tm (13. Peta perizinan eksternal dan keputusan formal) Tj ET
+0.850 0.900 0.870 RG 0.7 w 45.00 550.39 m 550.28 550.39 l S
+0.990 0.970 0.920 rg 45.00 471.39 505.28 66.00 re f
+0.730 0.520 0.280 rg 45.00 471.39 3.00 66.00 re f
+BT /F1 9.3 Tf 0.120 0.250 0.260 rg 1 0 0 1 58.00 518.09 Tm (Status OSS dan dokumen keputusan merupakan catatan yang diketik pengguna. J-NEST tidak menerbitkan) Tj ET
+BT /F1 9.3 Tf 0.120 0.250 0.260 rg 1 0 0 1 58.00 503.09 Tm (NIB, Sertifikat Standar, Izin, persetujuan lingkungan maupun dokumen hukum lain. Keabsahan wajib dicek) Tj ET
+BT /F1 9.3 Tf 0.120 0.250 0.260 rg 1 0 0 1 58.00 488.09 Tm (melalui sistem/instansi penerbit.) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 447.69 Tm (Klasifikasi risiko dicatat: Belum diklasifikasi. KBLI: belum dicatat. Status persyaratan: Tingkat risiko/KBLI belum) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 431.99 Tm (dikonfirmasi.. Jika ada dugaan konflik G1, penilaian dan koordinasi formal tetap perlu ditahan untuk rujukan) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 416.29 Tm (berwenang.) Tj ET
+0.080 0.230 0.250 rg 45.00 378.29 505.28 26.50 re f
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 53.00 389.59 Tm (Dokumen eksternal) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 262.12 389.59 Tm (Status input) Tj ET
+BT /F2 8.2 Tf 1.000 1.000 1.000 rg 1 0 0 1 383.18 389.59 Tm (No / penerbit / tanggal) Tj ET
+0.966 0.982 0.975 rg 45.00 353.19 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 364.89 Tm (Nomor Induk Berusaha \(NIB\)) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 262.12 364.89 Tm (Belum diketahui) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 383.18 364.89 Tm (- / - / -) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 353.19 m 550.28 353.19 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 339.79 Tm (Kesesuaian Kegiatan Pemanfaatan Ruang) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 326.69 Tm (\(KKPR\)) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 262.12 339.79 Tm (Belum diketahui) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 383.18 339.79 Tm (- / - / -) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 314.99 m 550.28 314.99 l S
+0.966 0.982 0.975 rg 45.00 289.89 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 301.59 Tm (Persetujuan lingkungan) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 262.12 301.59 Tm (Belum diketahui) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 383.18 301.59 Tm (- / - / -) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 289.89 m 550.28 289.89 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 276.49 Tm (PBG dan/atau SLF) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 262.12 276.49 Tm (Belum diketahui) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 383.18 276.49 Tm (- / - / -) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 264.79 m 550.28 264.79 l S
+0.966 0.982 0.975 rg 45.00 239.69 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 251.39 Tm (Sertifikat Standar) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 262.12 251.39 Tm (Belum diketahui) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 383.18 251.39 Tm (- / - / -) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 239.69 m 550.28 239.69 l S
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 226.29 Tm (Izin kegiatan usaha) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 262.12 226.29 Tm (Belum diketahui) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 383.18 226.29 Tm (- / - / -) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 214.59 m 550.28 214.59 l S
+0.966 0.982 0.975 rg 45.00 189.49 505.28 25.10 re f
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 53.00 201.19 Tm (PB untuk Menunjang Kegiatan Usaha \(PB UMKU\)) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 262.12 201.19 Tm (Belum diketahui) Tj ET
+BT /F1 8.4 Tf 0.120 0.250 0.260 rg 1 0 0 1 383.18 201.19 Tm (- / - / -) Tj ET
+0.850 0.900 0.870 RG 0.48 w 45.00 189.49 m 550.28 189.49 l S
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 167.79 Tm (Keputusan eksternal \(jika ada\): none. Nomor: belum ada, penerbit: belum ada, tanggal: belum ada, sumber:) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 152.09 Tm (belum ada. Pernyataan ini bukan konfirmasi penerbitan.) Tj ET
+BT /F2 15 Tf 0.080 0.230 0.250 rg 1 0 0 1 45.00 114.59 Tm (14. Keterkaitan nilai SKK dengan akuntabilitas proses) Tj ET
+0.850 0.900 0.870 RG 0.7 w 45.00 103.59 m 550.28 103.59 l S
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 80.89 Tm (Bagian I SKK diarahkan pada fungsi sumber penghidupan yang digunakan masyarakat dan pelestariannya;) Tj ET
+BT /F1 8 Tf 0.380 0.480 0.470 rg 1 0 0 1 490.3 32.0 Tm (11 / 12) Tj ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 27 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 23 0 R >>
+endobj
+25 0 obj
+<< /Length 5790 >>
+stream
+0.080 0.230 0.250 rg 0.00 804.89 595.28 37.00 re f
+BT /F2 9 Tf 1.000 1.000 1.000 rg 1 0 0 1 45.00 819.89 Tm (J-NEST  /  LAPORAN SIMULASI KEBIJAKAN) Tj ET
+BT /F1 8 Tf 0.830 0.920 0.880 rg 1 0 0 1 451.28 820.89 Tm (DRAF PENELITIAN) Tj ET
+0.850 0.900 0.870 RG 0.6 w 45.00 46.00 m 550.28 46.00 l S
+BT /F1 7 Tf 0.380 0.480 0.470 rg 1 0 0 1 45.00 32.00 Tm (Kerangka J-NEST-SKK | Bukan keputusan/izin pemerintah) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 766.19 Tm (keluaran operasional dalam uji adalah daftar pengguna, fungsi, data dasar dan efek setiap rancangan. Bagian) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 750.49 Tm (XV-XVI mengarahkan pemilihan sumber pengetahuan yang sesuai; keluaran operasional berupa penelaah yang) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 734.79 Tm (kompeten dan dokumen yang dapat diperiksa. Bagian tritangtu menjadi inspirasi pembedaan fungsi penyusun,) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 719.09 Tm (penelaah dan pengambil keputusan, bukan pemetaan historis jabatan ke lembaga modern.) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 697.89 Tm (DPMPTSP dan Bappeda tidak mengambil alih kewenangan instansi sektoral dalam penilaian lingkungan, tata) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 682.19 Tm (ruang atau penerbitan izin. Setiap keberatan material harus memiliki tanggapan dan tindak lanjut yang dapat) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 666.49 Tm (ditelusuri pada mekanisme sah. Nilai SKK tidak menghasilkan bobot kelayakan atau kompensasi ekologis.) Tj ET
+BT /F2 11.2 Tf 0.100 0.430 0.400 rg 1 0 0 1 45.00 636.79 Tm (Referensi hukum dan kelembagaan) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 618.29 Tm (PP 28 Tahun 2025 tentang Penyelenggaraan Perizinan Berusaha Berbasis Risiko \(berlaku sejak 5 Juni 2025 dan) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 602.59 Tm (mencabut PP 5/2021\); PP 6 Tahun 2021 tentang Penyelenggaraan Perizinan Berusaha di Daerah; Perda Jawa) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 586.89 Tm (Barat 4 Tahun 2025 tentang Investasi dan Kemudahan Berusaha; fungsi Bappeda Jabar \(Pergub 2/2021 menurut) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 571.19 Tm (situs Bappeda\); publikasi tugas dan fungsi DPMPTSP Jawa Barat. Ketentuan sektoral dan delegasi kewenangan) Tj ET
+BT /F1 9.7 Tf 0.120 0.250 0.260 rg 1 0 0 1 45.00 555.49 Tm (per kegiatan harus diperiksa terpisah.) Tj ET
+BT /F2 11.2 Tf 0.100 0.430 0.400 rg 1 0 0 1 45.00 525.79 Tm (Riwayat perubahan simulasi) Tj ET
+0.100 0.430 0.400 rg 48.00 507.59 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 507.49 Tm (26 Okt 2026, 08.56 | OPD/penelaah teknis | Klasifikasi risiko sumber pengguna: Belum diklasifikasi; KBLI belum) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 492.29 Tm (ada) Tj ET
+0.100 0.430 0.400 rg 48.00 474.69 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 474.59 Tm (26 Okt 2026, 08.56 | OPD/penelaah teknis | Identitas, profil, opsi proyek, status G1, atau bukti G0-G4 berubah;) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 459.39 Tm (serah-terima tahap S3-S9 dibuka ulang.) Tj ET
+0.100 0.430 0.400 rg 48.00 441.79 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 441.69 Tm (26 Okt 2026, 08.56 | DPMPTSP | S2: Daftar bukti material G0 dan rencana pemeriksaan; rujukan: Berkas demo) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 426.49 Tm (internal S2, belum terverifikasi instansi resmi) Tj ET
+0.100 0.430 0.400 rg 48.00 408.89 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 408.79 Tm (26 Okt 2026, 08.56 | Bappeda | S1: Nota diagnosis wilayah dan pertanyaan awal pemeriksaan tapak; rujukan:) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 393.59 Tm (Berkas demo internal S1, belum terverifikasi instansi resmi) Tj ET
+0.100 0.430 0.400 rg 48.00 375.99 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 375.89 Tm (26 Okt 2026, 08.56 | DPMPTSP | S0: Berkas awal dan daftar kekurangan informasi untuk Bappeda; rujukan:) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 360.69 Tm (Berkas demo internal S0, belum terverifikasi instansi resmi) Tj ET
+0.100 0.430 0.400 rg 48.00 343.09 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 342.99 Tm (26 Okt 2026, 08.56 | DPMPTSP | Hipotesis Penyesuaian lokasi: Kapasitas bertahap berbasis neraca layanan) Tj ET
+0.100 0.430 0.400 rg 48.00 325.39 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 325.29 Tm (26 Okt 2026, 08.56 | DPMPTSP | Hasil eksperimen A-B-C diperbarui; satuan temuan/perubahan/jam kerja) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 310.09 Tm (menggunakan isian pengguna) Tj ET
+0.100 0.430 0.400 rg 48.00 292.49 4.40 4.40 re f
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 292.39 Tm (26 Okt 2026, 08.56 | DPMPTSP | Identitas, profil, opsi proyek, status G1, atau bukti G0-G4 berubah;) Tj ET
+BT /F1 9.5 Tf 0.120 0.250 0.260 rg 1 0 0 1 59.00 277.19 Tm (serah-terima tahap S0-S9 dibuka ulang.) Tj ET
+0.990 0.970 0.920 rg 45.00 202.99 505.28 66.00 re f
+0.730 0.520 0.280 rg 45.00 202.99 3.00 66.00 re f
+BT /F1 9.3 Tf 0.120 0.250 0.260 rg 1 0 0 1 58.00 249.69 Tm (KESIMPULAN STATUS: Ini adalah laboratorium kebijakan dan draft dossier penelaahan. Tidak ada persetujuan) Tj ET
+BT /F1 9.3 Tf 0.120 0.250 0.260 rg 1 0 0 1 58.00 234.69 Tm (formal, legalitas investasi, sertifikat standar, hasil kajian dampak maupun angka kompensasi yang diterbitkan) Tj ET
+BT /F1 9.3 Tf 0.120 0.250 0.260 rg 1 0 0 1 58.00 219.69 Tm (oleh aplikasi. Tindak lanjut resmi mengikuti kewenangan instansi dan dokumen hukum yang berlaku.) Tj ET
+BT /F1 8 Tf 0.380 0.480 0.470 rg 1 0 0 1 490.3 32.0 Tm (12 / 12) Tj ET
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 27 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 25 0 R >>
+endobj
+27 0 obj
+<< /Type /Pages /Count 12 /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R] >>
+endobj
+28 0 obj
+<< /Type /Catalog /Pages 27 0 R >>
+endobj
+29 0 obj
+<< /Title (J-NEST Policy Simulator - Rekomendasi Kebijakan) /Author (J-NEST Policy Lab - Prototype) /Subject (Analisis J-NEST-SKK berbasis panel teritorial dan telaah G0-G4) >>
+endobj
+xref
+0 30
+0000000000 65535 f 
+0000000017 00000 n 
+0000000114 00000 n 
+0000000216 00000 n 
+0000004499 00000 n 
+0000004642 00000 n 
+0000011628 00000 n 
+0000011771 00000 n 
+0000020285 00000 n 
+0000020428 00000 n 
+0000028455 00000 n 
+0000028599 00000 n 
+0000035024 00000 n 
+0000035169 00000 n 
+0000042404 00000 n 
+0000042549 00000 n 
+0000049180 00000 n 
+0000049325 00000 n 
+0000055357 00000 n 
+0000055502 00000 n 
+0000062708 00000 n 
+0000062853 00000 n 
+0000070399 00000 n 
+0000070544 00000 n 
+0000077307 00000 n 
+0000077452 00000 n 
+0000083294 00000 n 
+0000083439 00000 n 
+0000083573 00000 n 
+0000083624 00000 n 
+trailer
+<< /Size 30 /Root 28 0 R /Info 29 0 R >>
+startxref
+83817
+%%EOF

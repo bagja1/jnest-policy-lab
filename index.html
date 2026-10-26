@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="theme-color" content="#123a3f" />
+<title>J-NEST Policy Lab V5 | Simulasi Kebijakan dan Alur DPMPTSP–Bappeda</title>
+<meta name="description" content="J-NEST Policy Lab: prototipe simulasi kebijakan investasi Jawa Barat. Uji alternatif lokasi, teknologi, kapasitas, tahapan, matriks bukti G0–G4, dan laporan rekomendasi kebijakan PDF." />
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="policy.css" />
+<link rel="stylesheet" href="audit.css" />
+<link rel="stylesheet" href="territorial.css" />
+<link rel="stylesheet" href="simulator.css" />
+<link rel="stylesheet" href="lab-v5.css" />
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <span class="brand-logo"><span class="brand-j">J</span><span class="brand-dot"></span></span>
+      <span><b>J-NEST</b><small>Territorial Intelligence</small></span>
+    </div>
+    <div class="side-subhead">LABORATORIUM KEBIJAKAN <span>V5.0</span></div>
+    <nav id="main-nav" aria-label="Navigasi simulasi J-NEST">
+      <div class="nav-section-label nav-flow-label">ALUR KERJA ANTARINSTANSI</div>
+      <button class="nav-item active" data-page="lab"><span class="flow-index">01</span><span><b>Laboratorium kebijakan</b><small>Rancang & uji rekomendasi</small></span></button>
+      <button class="nav-item" data-page="calculate"><span class="flow-index">02</span><span>Hitung J-NEST</span></button>
+      <button class="nav-item" data-page="policy" data-flow-step="0"><span class="flow-index">03</span><span>Rumuskan proyek</span></button>
+      <button class="nav-item" data-page="policy" data-flow-step="1"><span class="flow-index">04</span><span>Uji opsi investasi</span></button>
+      <button class="nav-item" data-page="policy" data-flow-step="2"><span class="flow-index">05</span><span>Penapisan G0–G4</span></button>
+      <button class="nav-item" data-page="governance"><span class="flow-index">06</span><span><b>Alur DPMPTSP–Bappeda</b><small>Peran, bukti, serah terima</small></span></button>
+      <button class="nav-item" data-page="clearance"><span class="flow-index">07</span><span>Jejak perizinan & OSS</span></button>
+      <button class="nav-item" data-page="policy" data-flow-step="3"><span class="flow-index">08</span><span>Rekomendasi & SKK</span></button>
+      <button class="nav-item" data-page="evaluation"><span class="flow-index">09</span><span>Evaluasi nilai tambah</span></button>
+      <button class="nav-item" data-page="policy" data-flow-step="4"><span class="flow-index">10</span><span><b>Laporan kebijakan PDF</b></span><span class="nav-new">PDF</span></button>
+      <div class="nav-divider"></div>
+      <div class="nav-section-label">DATA &amp; LANDASAN</div>
+      <button class="nav-item" data-page="atlas"><span data-icon="map"></span><span>Atlas 27 wilayah</span></button>
+      <button class="nav-item" data-page="data"><span data-icon="database"></span><span>Audit panel 2020–2024</span></button>
+      <button class="nav-item" data-page="sensitivity"><span data-icon="sliders"></span><span>Uji sensitivitas</span></button>
+      <button class="nav-item" data-page="skk"><span data-icon="book-open"></span><span>Filosofi Siksakandang</span></button>
+      <button class="nav-item" data-page="method"><span data-icon="info"></span><span>Metodologi &amp; sumber</span></button>
+      <div class="nav-divider"></div>
+      <button class="nav-item" data-page="ai"><span data-icon="sparkles"></span><span>Bantuan penelitian</span></button>
+    </nav>
+    <div class="sidebar-foot">
+      <div class="side-info"><span class="live-dot"></span> Prototipe berbasis paper <b>2026</b></div>
+      <p>Sandbox simulasi keputusan berbasis bukti; bukan aplikasi resmi Pemprov, izin, atau penetapan kompensasi.</p>
+      <div class="mini-caption">© J-NEST Research Web App</div>
+    </div>
+  </aside>
+
+  <div class="main-shell">
+    <header class="topbar">
+      <div class="topbar-left">
+        <button id="mobile-menu" class="icon-button mobile-menu" aria-label="Buka navigasi"><span data-icon="menu"></span></button>
+        <div class="breadcrumbs"><span>J-NEST</span><span class="crumb-separator">/</span><b id="breadcrumb">Hitung indeks J-NEST</b></div>
+      </div>
+      <div class="topbar-right">
+        <span class="data-chip"><span class="live-dot"></span> Prototype V5.0 · Panel 2020–2024 · 135 baris</span>
+        <button class="button button-soft" id="header-data-btn"><span data-icon="database"></span> Kelola data</button>
+      </div>
+    </header>
+
+    <main class="main-content">
+
+      <!-- LABORATORIUM EKSPERIMEN KEBIJAKAN V5 -->
+      <section class="page active" id="page-lab" aria-labelledby="lab-title">
+        <div class="lab-hero">
+          <span class="lab-kicker">J-NEST / POLICY EXPERIMENTATION LAB / V5.0</span>
+          <div class="lab-hero-cols"><div><h1 id="lab-title">Uji kebijakan.<br><em>Buktikan nilai tambahnya.</em></h1><p>Bandingkan telaah biasa, telaah berbasis J-NEST, dan J-NEST + orientasi SKK. Uji perubahan desain proyek, catat temuan terverifikasi, dan teruskan hasilnya kepada penanggung jawab yang tepat.</p></div><div class="lab-hero-symbol"><span>J</span><small>27 KAB/KOTA<br>135 PANEL</small></div></div>
+          <div class="lab-hero-tags"><span>Data wilayah 2020–2024</span><span>Alur G0–G4</span><span>Uji tiga pendekatan</span><span>Serah-terima kelembagaan</span></div>
+        </div>
+        <div class="lab-warning"><strong>Ruang simulasi, bukan sistem persetujuan.</strong> Hasil indeks dan eksperimen tidak menggantikan kajian tapak, penilaian instansi berwenang, atau penerbitan dokumen melalui OSS.</div>
+        <div id="lab-content"></div>
+      </section>
+
+      <!-- PENELAAHAN ANTAR PERAN, SERAH TERIMA, G0-G4 -->
+      <section class="page" id="page-governance" aria-labelledby="gov-title">
+        <div class="page-intro"><span class="eyebrow">INSTITUTIONAL PROCESS / RACI / HANDOVER</span><h1 id="gov-title">Siapa bertugas, kapan diserahkan, dan apa buktinya?</h1><p>Alur usulan uji J-NEST untuk DPMPTSP, Bappeda, pemilik proyek, OPD teknis, instansi lingkungan dan penelaah independen. Bukan penetapan kewenangan baru.</p></div>
+        <div id="governance-content"></div>
+      </section>
+
+      <!-- RENCANA TRANSISI KE PERIZINAN RESMI (PENCATATAN SAJA) -->
+      <section class="page" id="page-clearance" aria-labelledby="clearance-title">
+        <div class="page-intro"><span class="eyebrow">FORMAL PROCESS INTERFACE / EXTERNAL RECORD</span><h1 id="clearance-title">Dari rekomendasi ke jalur perizinan resmi</h1><p>Rekam status dokumen eksternal dan tentukan tindak lanjut menurut klasifikasi risiko. <strong>Tidak ada tombol penerbit izin dalam aplikasi ini.</strong> OSS dan instansi berwenang tetap merupakan sumber status formal.</p></div>
+        <div id="clearance-content"></div>
+      </section>
+
+      <!-- HASIL EVALUASI PILOT TIGA PENDEKATAN V5 -->
+      <section class="page" id="page-evaluation" aria-labelledby="evaluation-title">
+        <div class="page-intro"><span class="eyebrow">IMPACT EVALUATION / SIX-MONTH PILOT</span><h1 id="evaluation-title">Apakah J-NEST memberi nilai tambah?</h1><p>Evaluasi prospektif yang membandingkan proses biasa, profil J-NEST, dan profil + SKK. Kriteria utama: perubahan yang benar-benar ditindaklanjuti, temuan tambahan yang sah, klaim tidak terbukti dan waktu kerja.</p></div>
+        <div id="evaluation-content"></div>
+      </section>
+
+      <!-- LANGKAH 01: KALKULATOR INDEKS BERBASIS 135 OBSERVASI -->
+      <section class="page active" id="page-calculate" aria-labelledby="calc-title">
+        <div class="calc-hero">
+          <span class="policy-eyebrow">J-NEST SIMULATOR / TAHAP 01 DARI 06</span>
+          <h1 id="calc-title">Hitung J-NEST.<br><em>Pahami setiap angka.</em></h1>
+          <p>Ikuti proses nyata penelitian: delapan data mentah → transformasi dan normalisasi panel → bobot CRITIC → tiga dimensi → indeks dan peringkat. Lanjutkan ke simulasi desain investasi dan laporan rekomendasi PDF.</p>
+          <div class="calc-hero-mini"><span>27 kabupaten/kota</span><span>2020–2024</span><span>135 baris panel</span><span>8 indikator</span></div>
+        </div>
+        <div class="panel calc-controls">
+          <div class="policy-field"><label for="calc-region">Wilayah yang dihitung</label><select id="calc-region"></select></div>
+          <div class="policy-field"><label for="calc-year">Tahun pengamatan</label><select id="calc-year"><option>2020</option><option>2021</option><option>2022</option><option>2023</option><option selected>2024</option></select></div>
+          <div class="policy-field"><label for="calc-method">Agregasi uji kepekaan</label><select id="calc-method"><option value="arithmetic">Aritmetika (utama)</option><option value="geometric">Geometrik (sensitivitas)</option></select></div>
+          <button class="button button-primary" id="calc-to-sim">Gunakan pada simulasi →</button>
+        </div>
+        <div class="calc-flow" aria-label="Enam tahap kerja J-NEST">
+          <div><b>01</b><span>Data mentah</span></div><div><b>02</b><span>Normalisasi</span></div><div><b>03</b><span>CRITIC</span></div><div><b>04</b><span>IDI–SEC–ESP</span></div><div><b>05</b><span>Agregasi</span></div><div><b>06</b><span>G0–G4 + SKK</span></div>
+        </div>
+        <div id="calc-results"></div>
+        <div class="calc-continue"><div><b>Setelah indeks dihitung</b><p>Skor wilayah adalah konteks penelaahan, bukan prediksi dampak atau izin investasi. Tahap berikutnya menguji pilihan desain dan bukti tapak.</p></div><button id="calc-next" class="button button-primary">Lanjut ke rancangan proyek →</button></div>
+      </section>
+
+      <!-- SIMULASI KEBIJAKAN / PROTOTIPE V4.0 -->
+      <section class="page" id="page-policy" aria-labelledby="policy-title">
+        <div class="policy-hero">
+          <div class="policy-hero-copy">
+            <span class="policy-eyebrow"><span class="policy-pulse"></span> J-NEST–SKK / PERBANDINGAN RANCANGAN / PROTOTIPE 04</span>
+            <h1 id="policy-title">Dari hitungan indeks ke<br><em>rekomendasi berbasis bukti.</em></h1>
+            <p>Simulasikan penyesuaian lokasi, teknologi, kapasitas, dan tahapan investasi. Telusuri kekuatan bukti G0–G4, lalu susun rekomendasi bersyarat yang dapat dipertanggungjawabkan.</p>
+            <div class="policy-hero-actions">
+              <button class="button button-cream" id="policy-create-new">Mulai simulasi baru <span data-icon="arrow-right"></span></button>
+              <button class="button button-outline-light" id="policy-load-water">Muat contoh proyek air <span data-icon="plus"></span></button>
+              <button class="button button-outline-light" id="policy-load-toll">Muat contoh infrastruktur <span data-icon="route"></span></button>
+            </div>
+          </div>
+          <div class="policy-hero-diagram" aria-hidden="true">
+            <div class="policy-orbit policy-orbit-one"></div><div class="policy-orbit policy-orbit-two"></div>
+            <div class="policy-diagram-point pd-one"><span>01</span><b>PROFIL WILAYAH</b><small>IDI · SEC · ESP</small></div>
+            <div class="policy-diagram-point pd-two"><span>02</span><b>DESAIN ALTERNATIF</b><small>Lokasi · Kapasitas</small></div>
+            <div class="policy-diagram-point pd-three"><span>03</span><b>JEJAK KEPUTUSAN</b><small>G0–G4 · Bukti</small></div>
+            <div class="policy-diagram-center">J<span>–</span>N</div>
+          </div>
+        </div>
+        <div class="policy-principle-band">
+          <div><span data-icon="database"></span><b>135</b><small>Observasi penelitian</small></div>
+          <div><span data-icon="map-pin"></span><b>7 + 2</b><small>Rebana resmi + pembanding</small></div>
+          <div><span data-icon="layers"></span><b>G0–G4</b><small>Penelusuran bukti proyek</small></div>
+          <div><span data-icon="shield-alert"></span><b>Bukan izin</b><small>Keputusan tetap oleh pejabat berwenang</small></div>
+        </div>
+        <div class="policy-section-title">
+          <div><div class="eyebrow">RUANG KERJA / KEPUTUSAN INVESTASI</div><h2>Simulasi penggunaan J-NEST–SKK</h2><p>Lima langkah penelaahan menggunakan hasil indeks yang terhitung. Hasil akhir berupa laporan PDF naratif yang merujuk metode, G0–G4 dan SKK.</p></div>
+          <span class="policy-version">POLICY LAB V4.0 <span>•</span> DRAF PENELITIAN</span>
+        </div>
+        <div class="policy-workspace-toolbar panel">
+          <div class="policy-workspace-select"><label for="policy-project-picker">Skenario aktif</label><select id="policy-project-picker" aria-label="Pilih skenario kebijakan"></select></div>
+          <div class="policy-toolbar-buttons">
+            <button id="policy-new" class="button button-soft" title="Buat skenario baru">+ Skenario</button>
+            <button id="policy-copy" class="button button-soft" title="Duplikasi skenario">Duplikasi</button>
+
+            <button id="policy-delete" class="button button-soft policy-danger-text" title="Hapus skenario">Hapus</button>
+
+          </div>
+          <div class="policy-saving" id="policy-save-status">Tersimpan di perangkat ini</div>
+        </div>
+        <div class="policy-stepper" id="policy-stepper" role="tablist" aria-label="Tahap simulasi kebijakan"></div>
+        <div class="policy-layout">
+          <div class="policy-work-main">
+            <div class="policy-stage" id="policy-step-0">
+              <div class="panel policy-stage-panel"><div class="policy-stage-header"><div><span class="policy-stage-count">01 / KONTEKS KEBIJAKAN</span><h2>Definisikan pertanyaan investasi</h2><p>Mulai dari masalah yang perlu ditelaah, bukan dari target skor indeks.</p></div><span class="policy-stage-mark">G0</span></div><div id="policy-setup"></div><div id="policy-territorial-setup"></div></div>
+              <div class="panel policy-context-panel"><div class="panel-eyebrow">PRINSIP SKK / PERTANYAAN UJI</div><div class="policy-skk-tiles"><div><strong>01 · Fungsi penghidupan</strong><p>Fungsi sumber daya apa yang harus dipertahankan, dan siapa penggunanya?</p></div><div><strong>02 · Ketepatan pengetahuan</strong><p>Siapa yang memiliki data, pengalaman penggunaan, dan kompetensi teknis?</p></div><div><strong>03 · Tanggung jawab</strong><p>Siapa menyiapkan klaim, memeriksa, menanggapi, dan memutuskan?</p></div></div><small>Interpretasi penelitian atas SKK bagian I, XV–XVI, dan tritangtu; bukan aturan teknis atau pemadanan jabatan modern.</small></div>
+            </div>
+            <div class="policy-stage hidden" id="policy-step-1"><div class="panel policy-stage-panel"><div class="policy-stage-header"><div><span class="policy-stage-count">02 / DESAIN DAN ALTERNATIF</span><h2>Bandingkan rancangan yang masih dapat diubah</h2><p>Gunakan satuan, periode, dan definisi layanan yang sepadan. Kosong berarti tidak tersedia, bukan nol.</p></div><span class="policy-stage-mark">G2</span></div><div class="policy-dataset-callout"><span data-icon="info"></span><span><b>Angka di bawah adalah masukan pengguna.</b> Rumus hanya memeriksa konsistensi aritmetika; tidak memprediksi dampak ekologis, laba investasi, atau kecukupan hidrologis.</span></div><div id="policy-alternatives"></div><div class="policy-add-row"><button class="button button-soft" id="policy-add-alt">+ Tambah alternatif (maks. 5)</button></div></div><div class="panel policy-comparison-panel"><div class="panel-header"><div><div class="panel-eyebrow">SIMULASI WHAT-IF</div><h3>Matriks konsekuensi rancangan</h3></div></div><div id="policy-comparison"></div><div id="policy-territorial-compare"></div></div></div>
+            <div class="policy-stage hidden" id="policy-step-2"><div class="panel policy-stage-panel"><div class="policy-stage-header"><div><span class="policy-stage-count">03 / PENELUSURAN BUKTI</span><h2>Uji kelengkapan dan keterlacakan G0–G4</h2><p>Dokumen yang disebut tidak berarti telah diaudit. Lengkapi sumber, status, dan catatan untuk setiap pertanyaan material.</p></div><span class="policy-stage-mark">G0–G4</span></div><div class="policy-gate-tabs" id="policy-gate-tabs"></div><div id="policy-evidence"></div><div id="policy-territorial-gate"></div></div></div>
+            <div class="policy-stage hidden" id="policy-step-3"><div class="panel policy-stage-panel"><div class="policy-stage-header"><div><span class="policy-stage-count">04 / HASIL SIMULASI</span><h2>Rekomendasi bersyarat dan alasan</h2><p>Hasil dihitung dari aturan penelaahan yang dapat dibaca. Tidak ada skor kelayakan atau persetujuan investasi otomatis.</p></div><span class="policy-stage-mark">G1 ≠ SKOR</span></div><div id="policy-decision"></div><div id="policy-territorial-decision"></div><div id="policy-skk-decision"></div></div><div class="panel policy-context-panel"><div class="panel-eyebrow">PILIHAN KEBIJAKAN / TABEL 12</div><div class="policy-policy-options"><div><span>01</span><b>Perubahan lokasi atau tata letak</b><small>Buktikan fungsi lahan dan kesesuaian tapak, bukan hanya skor ESP.</small></div><div><span>02</span><b>Adaptasi teknologi</b><small>Periksa kebutuhan sumber daya, dampak sisa, dan biaya menurut desain yang sama.</small></div><div><span>03</span><b>Penyesuaian kapasitas</b><small>Uji neraca layanan dan pengguna yang telah dilayani sebelum promosi kapasitas baru.</small></div><div><span>04</span><b>Pentahapan</b><small>Bandingkan skenario waktu, komitmen, dan prasyarat bukti setiap tahap.</small></div></div></div></div>
+            <div class="policy-stage hidden" id="policy-step-4"><div class="panel policy-stage-panel"><div class="policy-stage-header"><div><span class="policy-stage-count">05 / PILOT DAN PELAPORAN</span><h2>Uji nilai tambah J-NEST selama enam bulan</h2><p>Bandingkan dengan proses penelaahan yang sudah berjalan, bukan mengklaim aktivitas lama sebagai kebaruan J-NEST.</p></div><span class="policy-stage-mark">M1–M6</span></div><div id="policy-pilot"></div></div><div class="panel policy-report-panel"><div class="panel-header"><div><div class="panel-eyebrow">PAKET KEBIJAKAN</div><h3>Laporan rekomendasi kebijakan dalam PDF</h3><p>Ringkasan eksekutif, perhitungan J-NEST dan kontribusi indikator, perbandingan skenario, audit G0–G4, tafsir SKK, rekomendasi tindak lanjut, dan batas ketidakpastian.</p></div></div><div class="policy-export-actions"><button class="button button-primary" id="policy-download-report"><span data-icon="download"></span> Unduh rekomendasi kebijakan (PDF)</button><button class="button button-soft" id="policy-print">Pratinjau / cetak laporan</button></div><div class="policy-report-note" id="policy-report-preview"></div></div></div>
+            <div class="policy-step-actions"><button class="button button-soft" id="policy-back">← Kembali</button><span id="policy-step-caption">Langkah 1 dari 5</span><button class="button button-primary" id="policy-next">Lanjutkan penelaahan →</button></div>
+          </div>
+          <aside class="policy-context-aside" id="policy-context-aside" aria-label="Ringkasan konteks dan status simulasI"></aside>
+        </div>
+        <div class="policy-footer-disclaimer"><span data-icon="shield-alert"></span><span><b>Batas prototipe:</b> bukan sistem resmi Pemprov Jawa Barat. Profil wilayah 2020–2024 merupakan hasil retrospektif berbasis proksi; keputusan tentang lokasi, izin, dampak, dan kompensasi harus memakai data tapak, instrumen hukum, serta kewenangan yang berlaku. Tidak ada data real-time maupun hasil kajian mandiri lapangan di aplikasi ini.</span></div>
+      </section>
+
+      <!-- RINGKASAN -->
+      <section class="page" id="page-overview" aria-labelledby="overview-title">
+        <div class="hero">
+          <div class="hero-grid-pattern"></div>
+          <div class="hero-content">
+            <div class="eyebrow hero-eyebrow"><span class="eyebrow-dash"></span> JAWA BARAT · TERRITORIAL INTELLIGENCE</div>
+            <h1 id="overview-title">Membaca wilayah.<br><em>Menelaah investasi</em> dengan bukti.</h1>
+            <p>Kerangka J-NEST–SKK menghubungkan profil industri, sosial-ekonomi, dan vegetasi–termal dengan pemeriksaan alternatif proyek dan tanggung jawab ekologis.</p>
+            <div class="hero-actions">
+              <button class="button button-cream" data-goto="atlas">Jelajahi peta wilayah <span data-icon="arrow-up-right"></span></button>
+              <button class="button button-outline-light" data-goto="screening">Mulai penapisan G0–G4 <span data-icon="arrow-right"></span></button>
+            </div>
+          </div>
+          <div class="hero-graphic" aria-hidden="true">
+            <svg viewBox="0 0 330 280" fill="none" role="presentation"><circle cx="174" cy="139" r="118" stroke="#89c1b7" opacity=".27"/><circle cx="174" cy="139" r="88" stroke="#89c1b7" opacity=".4"/><circle cx="174" cy="139" r="54" stroke="#afdad0" opacity=".6"/><circle cx="174" cy="139" r="15" fill="#beded4"/><path d="M45 142C90 93 133 151 174 139S270 93 311 67" stroke="#cbead6" stroke-width="2" stroke-dasharray="6 9"/><path d="M46 213C95 165 119 246 197 202S292 184 319 125" stroke="#bdd8bf" stroke-width="1.5"/><circle cx="85" cy="113" r="6" fill="#e1b36a"/><circle cx="240" cy="107" r="9" fill="#e1b36a"/><circle cx="194" cy="202" r="6" fill="#e1b36a"/><rect x="188" y="62" width="95" height="40" rx="9" fill="#fff" fill-opacity=".13" stroke="#fff" stroke-opacity=".18"/><text x="201" y="79" fill="#d6ece8" font-size="9" font-family="sans-serif">IDI ↔ ESP</text><text x="201" y="93" fill="#fff" font-size="17" font-weight="700" font-family="sans-serif">−0,809</text></svg>
+          </div>
+        </div>
+        <div class="kpi-grid" id="kpi-grid">
+          <div class="kpi-card"><div class="kpi-top"><span>CAKUPAN WILAYAH</span><span class="kpi-icon"><span data-icon="map-pin"></span></span></div><div class="kpi-number">27 <span>wilayah</span></div><div class="kpi-foot">Kabupaten/kota di Jawa Barat</div></div>
+          <div class="kpi-card"><div class="kpi-top"><span>PANEL PENELITIAN</span><span class="kpi-icon"><span data-icon="calendar"></span></span></div><div class="kpi-number">135 <span>observasi</span></div><div class="kpi-foot">27 wilayah × 5 tahun (2020–2024)</div></div>
+          <div class="kpi-card"><div class="kpi-top"><span>RERATA REBANA · 2024</span><span class="kpi-icon"><span data-icon="bar-chart"></span></span></div><div class="kpi-number">44,69 <span>/ 100</span></div><div class="kpi-foot">7 anggota resmi Kawasan Rebana</div></div>
+          <div class="kpi-card"><div class="kpi-top"><span>ASOSIASI IDI–ESP</span><span class="kpi-icon"><span data-icon="trending-down"></span></span></div><div class="kpi-number">−0,809</div><div class="kpi-foot">Korelasi panel, bukan sebab-akibat</div></div>
+        </div>
+        <div class="section-head"><div><div class="eyebrow">BACA KONDISI TERITORIAL</div><h2>Atlas Jawa Barat, 2024</h2><p>Profil dan peta berdasarkan hasil penelitian; bukan peta kelayakan investasi.</p></div><button class="link-button" data-goto="atlas">Lihat atlas lengkap <span data-icon="arrow-up-right"></span></button></div>
+        <div class="overview-grid">
+          <div class="panel map-panel"><div class="panel-header"><div><div class="panel-eyebrow">PETA INTERAKTIF</div><h3>Profil 27 kabupaten/kota</h3></div><div class="segmented small" id="overview-map-mode"><button class="active" data-mode="typology">Tipologi</button><button data-mode="score">Skor</button></div></div><div id="overview-map" class="map-host"></div><div class="map-legend" id="overview-map-legend"></div><div class="panel-footer">Klik titik atau wilayah untuk melihat profil · Peta ditelusuri dari gambar penelitian</div></div>
+          <div class="panel profile-panel"><div class="panel-header"><div><div class="panel-eyebrow">PROFIL PILIHAN</div><h3 id="overview-region-name">Kab. Subang</h3></div><span id="overview-region-tag" class="mini-tag">Rebana resmi</span></div><div id="overview-region-detail"></div></div>
+        </div>
+        <div class="overview-bottom-grid">
+          <div class="panel ranking-panel"><div class="panel-header"><div><div class="panel-eyebrow">GAMBAR 4 · PENELITIAN</div><h3>15 skor J-NEST tertinggi</h3></div><span class="subtle-badge">2024</span></div><div id="overview-ranking"></div></div>
+          <div class="right-stacked">
+            <div class="panel narrative-card"><div class="panel-eyebrow">TEMUAN UTAMA</div><h3>Skor komposit tidak cukup untuk memilih proyek.</h3><p>Agregasi geometrik mengubah peringkat hingga <b>11 posisi</b>. Profil dimensi harus dibaca berdampingan sebelum memeriksa desain dan bukti tapak.</p><button class="link-button" data-goto="sensitivity">Tinjau sensitivitas <span data-icon="arrow-right"></span></button></div>
+            <div class="panel source-card"><div class="panel-eyebrow">PRINSIP J-NEST–SKK</div><div class="principle-line"><span>01</span><div><b>Profil teritorial</b><small>Memberi konteks, bukan keputusan</small></div></div><div class="principle-line"><span>02</span><div><b>Orientasi SKK</b><small>Penghidupan, pengetahuan, tanggung jawab</small></div></div><div class="principle-line"><span>03</span><div><b>Bukti proyek</b><small>Menentukan pertanyaan dan alternatif</small></div></div></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ATLAS -->
+      <section class="page" id="page-atlas" aria-labelledby="atlas-title">
+        <div class="page-intro"><span class="eyebrow">EXPLORER / WILAYAH</span><h1 id="atlas-title">Eksplorasi profil J-NEST</h1><p>Temukan kondisi 27 kabupaten/kota menurut tipologi 2024, skor yang terdokumentasi, dan sembilan profil dimensi pada Tabel 3.</p></div>
+        <div class="filterbar panel">
+          <div class="field"><label for="atlas-region">Wilayah yang ditelaah</label><select id="atlas-region"></select></div>
+          <div class="field"><label for="atlas-filter">Cakupan wilayah</label><select id="atlas-filter"><option value="all">Seluruh Jawa Barat (27)</option><option value="rebana">Rebana resmi (7)</option><option value="pantura">Pembanding Pantura (2)</option></select></div>
+          <div class="field"><label for="atlas-mode">Lapisan peta</label><select id="atlas-mode"><option value="typology">Tipologi referensi 2024</option><option value="score">J-NEST 2024</option><option value="IDI">IDI · industri</option><option value="SEC">SEC · sosial-ekonomi</option><option value="ESP">ESP · vegetasi–termal</option></select></div>
+          <div class="field year-field"><label for="atlas-year">Tahun data skor</label><select id="atlas-year"><option value="2024">2024 · panel terhitung</option><option value="2023">2023 · panel terhitung</option><option value="2022">2022 · panel terhitung</option><option value="2021">2021 · panel terhitung</option><option value="2020">2020 · panel terhitung</option></select></div>
+        </div>
+        <div class="atlas-grid">
+          <div class="panel map-panel atlas-map-panel"><div class="panel-header"><div><div class="panel-eyebrow">ATLAS WILAYAH</div><h3 id="atlas-map-title">Peta tipologi · Jawa Barat</h3></div><span class="subtle-badge">2024</span></div><div id="atlas-map" class="map-host map-large"></div><div class="map-legend" id="atlas-map-legend"></div><div class="panel-footer">Batas visual ditelusuri dari peta pada paper, bukan shapefile resmi. Skor panel olahan terhitung tersedia untuk semua wilayah dan tahun. Tipologi hanya untuk 2024.</div></div>
+          <div class="panel atlas-detail-panel"><div class="panel-header"><div><div class="panel-eyebrow">DIAGNOSIS WILAYAH</div><h3 id="atlas-detail-title">Kab. Subang</h3></div></div><div id="atlas-region-detail"></div></div>
+        </div>
+        <div class="section-head tight"><div><div class="eyebrow">PERBANDINGAN</div><h2>Profil dua wilayah</h2><p>Angka IDI–SEC–ESP dihitung ulang untuk seluruh 27 wilayah pada tiap tahun 2020–2024.</p></div></div>
+        <div class="panel compare-panel"><div class="compare-head"><div class="field"><label for="compare-left">Wilayah A</label><select id="compare-left"></select></div><span class="versus">VS</span><div class="field"><label for="compare-right">Wilayah B</label><select id="compare-right"></select></div></div><div id="compare-chart"></div></div>
+        <div class="section-head tight"><div><div class="eyebrow">DATA DOKUMENTER</div><h2>Profil Rebana dan pembanding · tahun terpilih</h2></div><button id="download-scores" class="button button-soft"><span data-icon="download"></span> Unduh CSV</button></div>
+        <div class="panel table-panel"><div class="table-scroll"><table id="rebana-table"><thead><tr><th>Wilayah</th><th>Status</th><th>J-NEST</th><th>IDI</th><th>SEC</th><th>ESP</th><th>Peringkat</th><th>Tipologi</th></tr></thead><tbody></tbody></table></div><div class="panel-footer">† Bekasi dan Karawang hanya pembanding Pantura, bukan anggota hukum Kawasan Rebana. Skor dihitung ulang dari panel gabungan dengan basis dan bobot tetap seluruh 135 observasi; tipologi selalu referensi 2024.</div></div>
+      </section>
+
+      <!-- DATA / REPRODUKSI PENUH -->
+      <section class="page" id="page-data" aria-labelledby="data-title">
+        <div class="page-intro"><span class="eyebrow">DATA LAB / REPRODUKSIBILITAS</span><h1 id="data-title">Panel J-NEST 2020–2024 & audit hitung ulang</h1><p>Seluruh 135 observasi dari tiga berkas yang diunggah telah dicocokkan berdasarkan kode BPS dan tahun. Indeks dihitung di browser menggunakan metode paper; kecocokan pada panel olahan <b>bukan audit independen sumber primer</b>.</p></div>
+        <div class="audit-kpis" id="audit-kpis"></div>
+        <div class="panel audit-toolbar"><div class="audit-toolbar-head"><div><div class="panel-eyebrow">INTERAKSI / DATA WILAYAH</div><h3>Jelajahi indikator & skor hasil reproduksi</h3></div><button id="audit-export-panel" class="button button-primary"><span data-icon="download"></span> Unduh hasil 135 baris</button></div><div class="audit-filters"><div class="field"><label for="audit-region">Kabupaten/kota</label><select id="audit-region"></select></div><div class="field"><label for="audit-year">Tahun rincian</label><select id="audit-year"><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option><option value="2024" selected>2024</option></select></div><div class="field"><label for="audit-metric">Grafik perubahan</label><select id="audit-metric"><option value="score">J-NEST total</option><option value="IDI">IDI · aktivitas industri</option><option value="SEC">SEC · sosial ekonomi</option><option value="ESP">ESP · vegetasi–termal</option><option value="ndvi">NDVI asli</option><option value="ndbi">NDBI asli</option><option value="lst">LST (°C)</option><option value="ntl">Cahaya malam</option></select></div></div></div>
+        <div class="audit-main-grid"><div class="panel audit-line-card"><div class="panel-header"><div><div class="panel-eyebrow">TREN 2020–2024</div><h3 id="audit-chart-title">Skor indeks</h3></div><span class="subtle-badge">5 observasi / wilayah</span></div><div id="audit-trend"></div><div class="panel-footer">Normalisasi indikator memakai min–maks gabungan 135 baris, bukan normalisasi terpisah per tahun. Perubahan skor tidak mengidentifikasi efek kausal proyek.</div></div><div class="panel audit-indicator-card"><div class="panel-header"><div><div class="panel-eyebrow">KONTRIBUSI INDEKS / TAHUN TERPILIH</div><h3 id="audit-breakdown-title">Delapan proksi</h3></div></div><div id="audit-breakdown"></div><div class="panel-footer">Kontribusi dihitung dari indikator ternormalisasi × bobot CRITIC × ⅓. Angka ini membentuk indeks matematis, bukan kontribusi kausal.</div></div></div>
+        <div class="panel audit-table-card"><div class="panel-header"><div><div class="panel-eyebrow">TABEL PANEL</div><h3>Perbandingan 27 wilayah dan lima tahun</h3></div><div class="audit-table-actions"><label class="audit-only"><input id="audit-all-years" type="checkbox"> Tampilkan seluruh 135 baris</label><input id="audit-search" type="search" placeholder="Cari wilayah..." aria-label="Cari wilayah pada panel"></div></div><div class="table-scroll"><table class="audit-table"><thead><tr><th>Kabupaten/Kota</th><th>Tahun</th><th>J-NEST</th><th>IDI</th><th>SEC</th><th>ESP</th><th>Peringkat/27</th><th>NDVI</th><th>NDBI</th><th>LST °C</th></tr></thead><tbody id="audit-panel-body"></tbody></table></div><div class="panel-footer" id="audit-panel-caption">27 data wilayah pada tahun terpilih. Klik baris untuk menampilkan rinciannya.</div></div>
+        <div class="panel audit-check-card"><div class="panel-header"><div><div class="panel-eyebrow">PENGUJIAN KONSISTENSI</div><h3>Jejak audit panel & perhitungan</h3></div></div><div id="audit-checks"></div><div class="audit-download-list"><a href="datasets/jnes_master_panel_2020_2024.csv" download>CSV panel master (24 kolom)</a><a href="datasets/jnes_gee_features_admin2_year_2020_2024.csv" download>CSV indikator GEE</a><a href="datasets/jnest_bps_manufacturing_admin2_year_2020_2024.csv" download>CSV statistik BPS</a><a href="datasets/jnest_territorial_context_2020_2024.csv" download>CSV jejak teritorial V3 (135 baris)</a></div><p class="audit-limitation"><b>Batas audit:</b> kami memeriksa kelengkapan panel, kesamaan angka pada berkas yang diunggah, dan reproduksi rumus penelitian. Pemeriksaan ini belum memverifikasi sumber primer, lokasi piksel, metodologi pengolahan citra, metode agregasi, catatan data hilang sebelum penggabungan, serta kode statistik asal penelitian. Peta atlas tetap ilustratif dan tidak dapat digunakan menguji batas hukum tapak.</p></div>
+      </section>
+
+      <!-- TIPOLOGI -->
+      <section class="page" id="page-typology" aria-labelledby="typology-title">
+        <div class="page-intro"><span class="eyebrow">PENGELOMPOKAN / K-MEANS</span><h1 id="typology-title">Lima tipologi teritorial</h1><p>Hasil k-means pada tiga skor dimensi terstandardisasi tahun 2024; kelompok deskriptif, bukan kategori perizinan atau hasil evaluasi dampak.</p></div>
+        <div class="mini-metrics"><div><b>5</b><span>tipologi digunakan</span></div><div><b>0,416</b><span>silhouette k=5</span></div><div><b>1,000</b><span>ARI k-means vs Ward</span></div><div><b>27</b><span>anggota wilayah</span></div></div>
+        <div class="type-grid" id="type-grid"></div>
+        <div class="panel typology-matrix"><div class="panel-header"><div><div class="panel-eyebrow">TABEL 5 / SENTROID</div><h3>Karakter profil setiap tipologi</h3></div><span class="subtle-badge">Skor dimensi 0–100</span></div><div id="typology-heatmap"></div></div>
+        <div class="callout-line"><span data-icon="info"></span><span>Pilihan k=5 dipertahankan sebagai spesifikasi deskriptif. Silhouette k=6 (0,423) sedikit lebih tinggi; klasifikasi tidak dapat langsung digunakan untuk menentukan kelayakan proyek.</span></div>
+      </section>
+
+      <!-- SENSITIVITAS -->
+      <section class="page" id="page-sensitivity" aria-labelledby="sensitivity-title">
+        <div class="page-intro"><span class="eyebrow">ROBUSTNESS / MODEL</span><h1 id="sensitivity-title">Sensitivitas indeks dan peringkat</h1><p>Perubahan pilihan agregasi atau konstruk memengaruhi cara membaca profil. Nilai di bagian atas merupakan hasil penelitian yang dapat dicocokkan dengan panel olahan; pilihan bobot tetap berupa simulasi metode.</p></div>
+        <div class="sensitivity-top"><div class="feature-stat dark"><span>ARITMETIKA vs GEOMETRIK</span><b>11 <small>posisi</small></b><p>Pergeseran peringkat maksimum pada 27 kabupaten/kota.</p></div><div class="feature-stat"><span>RATA-RATA PERGESERAN</span><b>3,78</b><p>Posisi per wilayah, ketika aturan agregasi berubah.</p></div><div class="feature-stat"><span>KORELASI PERINGKAT</span><b>0,797</b><p>Spearman aritmetika–geometrik.</p></div></div>
+        <div class="panel sensitivity-table"><div class="panel-header"><div><div class="panel-eyebrow">TABEL 2 &amp; 4</div><h3>Hasil uji sensitivitas paper; peringkat direproduksi pada panel terunggah</h3></div></div><div class="table-scroll"><table><thead><tr><th>Spesifikasi</th><th>Spearman</th><th>Geser rata-rata</th><th>Geser maks.</th><th>ARI klaster</th></tr></thead><tbody id="sensitivity-rows"></tbody></table></div></div>
+        <div class="section-head tight"><div><div class="eyebrow">SANDBOX · ILUSTRATIF</div><h2>Eksperimen bobot tiga dimensi</h2><p>Menggunakan skor presisi penuh 27 wilayah yang direproduksi dari panel olahan 2020–2024. Mengubah bobot dan metode hanya menguji sensitivitas urutan wilayah, bukan kelayakan investasi.</p></div><button class="button button-soft" id="reset-weights"><span data-icon="rotate-ccw"></span> Reset ⅓–⅓–⅓</button></div>
+        <div class="sandbox-grid"><div class="panel weight-control"><div class="panel-eyebrow">BOBOT ANTARDIMENSI</div><div id="weight-controls"></div><div class="weight-total" id="weight-total"></div><div class="field"><label for="aggregation-select">Aturan agregasi ilustratif</label><select id="aggregation-select"><option value="arithmetic">Rata-rata tertimbang</option><option value="geometric">Geometrik tertimbang</option></select></div><div class="sandbox-note"><span data-icon="info"></span> Menggunakan profil presisi penuh tahun 2024, seluruh 27 wilayah. Basis normalisasi dan bobot CRITIC indikator tetap mengikuti paper; bobot dimensi yang diubah hanya untuk simulasi.</div></div><div class="panel"><div class="panel-header"><div><div class="panel-eyebrow">HASIL SIMULASI / 27 WILAYAH</div><h3>Urutan simulasi bobot</h3></div><span class="subtle-badge">Ilustratif</span></div><div id="simulation-results"></div></div></div>
+      </section>
+
+      <!-- SCREENING -->
+      <section class="page" id="page-screening" aria-labelledby="screening-title">
+        <div class="page-intro"><span class="eyebrow">ALUR PENELAAHAN / G0–G4</span><h1 id="screening-title">Penapisan berbasis bukti proyek</h1><p>Simulasikan dokumentasi pemeriksaan awal. Status tidak memberikan persetujuan, rekomendasi izin, atau nilai kompensasi ekologis.</p></div>
+        <div class="screening-layout">
+          <div class="panel screen-left"><div class="panel-eyebrow">BERKAS PENELAAHAN</div><div class="field"><label for="screen-project">Judul proyek / berkas</label><input id="screen-project" type="text" placeholder="Contoh: Usulan investasi di Subang" maxlength="110" /></div><div class="field"><label for="screen-stage">Tahap proyek</label><select id="screen-stage"><option value="perencanaan">Perencanaan</option><option value="pelaksanaan">Pelaksanaan</option></select></div><div class="field"><label for="screen-location">Kabupaten/kota</label><select id="screen-location"></select></div><div id="screen-location-context" class="screen-context"></div><div class="gate-nav" id="gate-nav"></div><div class="progress-section"><div class="progress-label"><span>Progres telaah</span><b id="screen-progress-text">0 / 15</b></div><div class="progress-track"><span id="screen-progress-bar"></span></div><p>Progres berarti status telah diisi, bukan bukti telah dinyatakan memadai.</p></div></div>
+          <div class="panel screen-main"><div id="gate-detail"></div><div class="gate-action-row"><button id="prev-gate" class="button button-soft"><span data-icon="arrow-left"></span> Sebelumnya</button><button id="next-gate" class="button button-primary">Tahap berikutnya <span data-icon="arrow-right"></span></button></div></div>
+        </div>
+        <div class="screen-bottom"><div class="callout-line"><span data-icon="shield-alert"></span><span><b>Penting:</b> status “Tersedia” hanya pernyataan pengguna tentang dokumen, tidak berarti kebenaran atau kecukupan telah diverifikasi. Pemeriksaan resmi tetap dilakukan instansi berwenang.</span></div><div class="screen-actions"><button id="reset-screen" class="button button-soft">Hapus isian</button><button id="export-screen" class="button button-primary"><span data-icon="download"></span> Ekspor catatan JSON</button></div></div>
+      </section>
+
+      <!-- CASES -->
+      <section class="page" id="page-cases" aria-labelledby="cases-title">
+        <div class="page-intro"><span class="eyebrow">EVIDENCE REVIEW / PATIMBAN</span><h1 id="cases-title">Dua studi kasus, dua jenis persoalan</h1><p>Penelitian membedakan dokumen Tol Akses Patimban dari profil penawaran proyek air bersih Patimban. Kedua proyek tidak diperlakukan sebagai satu kasus sebelum–sesudah.</p></div>
+        <div class="case-tabs"><button class="active" data-case="toll"><span data-icon="route"></span> Tol Akses Patimban</button><button data-case="water"><span data-icon="droplets"></span> Air Bersih Patimban</button></div>
+        <div id="case-content"></div>
+      </section>
+
+      <!-- SKK -->
+      <section class="page" id="page-skk" aria-labelledby="skk-title">
+        <div class="page-intro"><span class="eyebrow">KEARIFAN SUNDA / INTERPRETASI TERARAH</span><h1 id="skk-title">Siksa Kandang Karesian dalam J-NEST</h1><p>SKK memberi orientasi etis dan pertanyaan tata kelola. Teks historis bukan rumus indeks, ambang ekologis, prosedur perizinan, atau dasar menghitung kompensasi modern.</p></div>
+        <div class="skk-hero"><div><div class="eyebrow">TIGA PERTANYAAN YANG MENUNTUN TELAAH</div><h2>Apa yang dijaga?<br>Pengetahuan siapa?<br>Siapa bertanggung jawab?</h2></div><div class="skk-seal" aria-hidden="true">ᮞ<br><span>SKK</span></div></div>
+        <div class="skk-grid" id="skk-cards"></div>
+        <div class="panel skk-flow"><div class="panel-header"><div><div class="panel-eyebrow">INTEGRASI / ePIP TERADAPTASI</div><h3>Dari konteks wilayah ke keputusan berbasis bukti</h3></div></div><div class="flowline"><div><span class="flow-icon">01</span><b>Diagnosis J-NEST</b><p>IDI · SEC · ESP dan sensitivitas</p></div><span class="flow-arrow">→</span><div><span class="flow-icon">02</span><b>Orientasi SKK</b><p>Penghidupan · pengetahuan · tanggung jawab</p></div><span class="flow-arrow">→</span><div><span class="flow-icon">03</span><b>Penelaahan G0–G4</b><p>Bukti tapak · alternatif · dampak tersisa</p></div></div></div>
+      </section>
+
+      <!-- AI -->
+      <section class="page" id="page-ai" aria-labelledby="ai-title">
+        <div class="page-intro"><span class="eyebrow">ASISTEN PENELITIAN / GROUNDED QA</span><h1 id="ai-title">Tanya J-NEST</h1><p>Tanyakan metode, temuan, wilayah, atau alur G0–G4. Jawaban hanya menggunakan materi paper dan menunjukkan batas kesimpulannya.</p></div>
+        <div class="chat-wrap panel"><div class="chat-head"><div class="chat-avatar"><span data-icon="sparkles"></span></div><div><h3>Asisten J-NEST–SKK</h3><small id="ai-mode-label">Mode panduan lokal · berbasis isi penelitian</small></div><span class="mini-tag" id="ai-mode-tag">Siap</span></div><div id="chat-messages" class="chat-messages" aria-live="polite"></div><div class="suggested-questions" id="suggested-questions"><button data-question="Apa perbedaan IDI, SEC, dan ESP?">Apa itu IDI, SEC, ESP?</button><button data-question="Mengapa skor tinggi bukan izin investasi?">Skor tinggi = siap investasi?</button><button data-question="Bagaimana menghitung bobot CRITIC pada J-NEST?">Bobot CRITIC</button><button data-question="Apa langkah penapisan G0 sampai G4?">Alur G0–G4</button></div><form id="chat-form" class="chat-composer"><input id="chat-input" type="text" autocomplete="off" aria-label="Pertanyaan penelitian" placeholder="Ajukan pertanyaan tentang penelitian J-NEST…" maxlength="2000" /><button class="send-button" type="submit" aria-label="Kirim pertanyaan"><span data-icon="arrow-up"></span></button></form></div><div class="callout-line"><span data-icon="info"></span><span>Tanpa konfigurasi API, fitur tanya-jawab menggunakan mesin jawaban lokal berbasis materi penelitian (bukan AI generatif). Jika <code>OPENAI_API_KEY</code> disetel sebagai environment variable di Vercel dan fungsi <code>/api/chat</code> aktif, aplikasi memakai AI generatif melalui server. Jangan masukkan API key atau informasi proyek yang rahasia ke kolom chat.</span></div>
+      </section>
+
+      <!-- METHOD -->
+      <section class="page" id="page-method" aria-labelledby="method-title">
+        <div class="page-intro"><span class="eyebrow">TRANSPARANSI / REPRODUKSIBILITAS</span><h1 id="method-title">Metode dan cakupan data</h1><p>Dokumentasi yang menjelaskan apa yang diukur, bagaimana dihitung, serta hal yang belum dapat diklaim dari penelitian.</p></div>
+        <div class="method-summary-grid"><div class="panel"><div class="panel-eyebrow">CAKUPAN KUANTITATIF</div><h3>27 × 5 = 135</h3><p>Seluruh kabupaten/kota Jawa Barat, periode 2020–2024. Normalisasi minimum–maksimum dilakukan pada gabungan panel.</p></div><div class="panel"><div class="panel-eyebrow">BOBOT ANTARDIMENSI</div><h3>⅓ · ⅓ · ⅓</h3><p>Bobot CRITIC dihitung di dalam setiap dimensi. Bobot utama antardimensi sengaja dibuat sama.</p></div><div class="panel"><div class="panel-eyebrow">BATAS PENGUKURAN</div><h3>Proksi, bukan izin</h3><p>NDVI dan LST tidak mengukur mutu air, biodiversitas, emisi, subsidensi, maupun dampak proyek tertentu.</p></div></div>
+        <div class="panel"><div class="panel-header"><div><div class="panel-eyebrow">TABEL 1 / PROKSI PENELITIAN</div><h3>Delapan indikator dan bobot CRITIC</h3></div></div><div id="method-weights"></div></div>
+        <div class="section-head tight"><div><div class="eyebrow">SUMBER &amp; VALIDASI</div><h2>Hal yang dapat dan belum dapat digunakan</h2></div></div>
+        <div class="two-column"><div class="panel readiness-panel"><h3><span data-icon="check-circle"></span> Tersedia pada paper</h3><ul><li>Panel mentah delapan indikator × 135 wilayah–tahun dari tiga CSV terunggah</li><li>Skor dan peringkat tahunan IDI–SEC–ESP seluruh 27 wilayah yang dapat direproduksi</li><li>Bobot CRITIC, asosiasi, dan uji sensitivitas cocok dengan paper</li><li>Tipologi 2024, studi kasus serta alur G0–G4 dari paper</li></ul></div><div class="panel readiness-panel"><h3><span data-icon="alert-circle"></span> Memerlukan data/validasi lanjutan</h3><ul><li>Autentikasi dan rekonstruksi data primer BPS, produk citra, cloud masking, agregasi, poligon</li><li>Audit terpisah asal data dan kode produksi sumber; panel olahan bukan verifikasi primer</li><li>Data tapak, kesesuaian tata ruang, model sektor dan kondisi sumber daya aktual</li><li>Uji bersama pemilik proses Pemprov serta validasi penelaah independen</li></ul></div></div>
+        <div class="panel paper-figures"><div class="panel-header"><div><div class="panel-eyebrow">GAMBAR ASLI</div><h3>Visualisasi hasil penelitian</h3></div></div><div class="fig-grid"><figure><img src="assets/peta-skor.webp" alt="Gambar 2 penelitian: skor J-NEST 2024 pada kabupaten/kota Jawa Barat" loading="lazy"><figcaption>Gambar 2 · Peta skor wilayah 2024</figcaption></figure><figure><img src="assets/peta-tipologi.webp" alt="Gambar 6 penelitian: lima tipologi 2024" loading="lazy"><figcaption>Gambar 6 · Peta lima tipologi</figcaption></figure></div></div>
+        <div class="panel refs-panel"><div class="panel-header"><div><div class="panel-eyebrow">RUJUKAN YANG DICANTUMKAN PENELITIAN</div><h3>Sumber kunci</h3></div></div><div id="method-references"></div></div>
+      </section>
+      <footer class="main-footer"><span>J-NEST–SKK · Policy Lab V5 · Penelitian 2026</span><span>Alat penapisan indikatif • Tidak menggantikan penilaian resmi</span></footer>
+    </main>
+  </div>
+</div>
+
+<div class="modal-backdrop hidden" id="data-modal" role="dialog" aria-modal="true" aria-labelledby="data-modal-title">
+  <div class="modal-card"><div class="modal-head"><div><div class="panel-eyebrow">KELOLA DATA</div><h2 id="data-modal-title">Lengkapi panel penelitian</h2></div><button id="close-modal" class="icon-button" aria-label="Tutup">×</button></div><p>Panel bawaan sekarang lengkap: 135 baris hasil perhitungan ulang. CSV pada formulir ini hanya untuk percobaan profil tambahan; nilai impor pengguna akan diberi label dan dapat menimpa tampilan suatu wilayah–tahun, tanpa mengubah perhitungan dasar dan bobot penelitian.</p><div class="upload-box"><span data-icon="upload"></span><b>Unggah profil eksperimen (opsional)</b><small>Kolom: wilayah,tahun,JNEST,IDI,SEC,ESP (kolom dimensi boleh kosong)</small><input id="upload-csv" type="file" accept=".csv,text/csv" /></div><div id="import-status" class="import-status"></div><div class="modal-actions"><button class="button button-soft" id="download-template">Unduh template CSV</button><button class="button button-soft" id="clear-import">Hapus data impor</button></div><div class="modal-note"><b>Catatan:</b> Data impor hanya tersimpan di browser ini dan tidak diaudit. Angka baseline hitung ulang tetap ada pada panel dasar; sumber data resmi harus diverifikasi sebelum penilaian pemerintah.</div></div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<script src="data.js"></script>
+<script src="assets/panel-2020-2024.js"></script>
+<script src="assets/panel-engine.js"></script>
+<script src="assets/territorial-bridge.js"></script>
+<script src="assets/map-geometry.js"></script>
+<script src="app.js"></script>
+<script src="pdf-engine.js"></script>
+<script src="policy.js"></script>
+<script src="calculate.js"></script>
+<script src="audit.js"></script>
+<script src="lab-v5.js"></script>
+</body>
+</html>

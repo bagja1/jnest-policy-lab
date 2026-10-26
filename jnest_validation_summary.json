@@ -1,0 +1,70 @@
+{
+  "status": "Reproduksi panel olahan terunggah, bukan audit sumber primer",
+  "period": "2020-2024",
+  "rows": 135,
+  "regions": 27,
+  "source_matching": "Tidak ada selisih pada kolom numerik yang muncul di CSV sumber dan master dengan kunci wilayah–tahun.",
+  "sha256": {
+    "master": "f40d2092650f80e5b7766f55845bda3a7c2d5b57a6cc38e41cb661b01e020c39",
+    "gee": "923b9204bfc6d7d88371dabfe6958f29001ebd4170132463ea243e847f1d65d6",
+    "bps": "8c1d23ee8da04b3f4a0509490dc85788633f453e6e027f7db522f7f1f9110d6c"
+  },
+  "weights_CRITIC": {
+    "IDI": {
+      "pdrb": 0.4683896717666185,
+      "ndbi": 0.2975340332324937,
+      "ntl": 0.23407629500088778
+    },
+    "SEC": {
+      "pop": 0.33347191234166335,
+      "poor": 0.35321986909472886,
+      "tpt": 0.31330821856360785
+    },
+    "ESP": {
+      "ndvi": 0.5625112868114752,
+      "lst": 0.4374887131885247
+    }
+  },
+  "max_abs_weight_vs_paper_6dec": 3.2823338147469627e-07,
+  "correlation_IDI_ESP": -0.8092414226426414,
+  "rebana2024": {
+    "mean": 44.69357236133622,
+    "minimum": 35.35733203314178,
+    "maximum": 52.634988023775385
+  },
+  "arithmetic_vs_geometric_2024": {
+    "spearman": 0.7973137973137973,
+    "average_rank_shift": 3.7777777777777777,
+    "max_rank_shift": 11
+  },
+  "kmeans_2024": {
+    "k": 5,
+    "silhouette": 0.4160027624016612,
+    "n_init": 100,
+    "random_state": 42
+  },
+  "sensitivity": {
+    "sec_without_population": {
+      "spearman": 0.9334554334554335,
+      "mean_shift": 2.2962962962962963,
+      "max_shift": 6,
+      "ARI": 0.3765541740674956
+    },
+    "esp_ndvi_only": {
+      "spearman": 0.9304029304029304,
+      "mean_shift": 1.9259259259259258,
+      "max_shift": 10,
+      "ARI": 1.0
+    },
+    "esp_lst_only": {
+      "spearman": 0.9676434676434676,
+      "mean_shift": 1.6296296296296295,
+      "max_shift": 4,
+      "ARI": 1.0
+    }
+  },
+  "limitations": [
+    "Metadata sumber primer BPS, identitas produk satelit, periode, resolusi, masking, agregasi dan poligon belum ditelaah secara independen.",
+    "Tipologi dan skor adalah profil proksi wilayah, bukan izin lokasi, prediksi dampak kausal, atau kompensasi ekologis."
+  ]
+}
